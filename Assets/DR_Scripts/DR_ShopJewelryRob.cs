@@ -25,7 +25,7 @@ public class DR_ShopJewelryRob : MonoBehaviour
         {
             PlayerHasRobbedShopJewelry = true;
 
-            GameManager.GetComponent<DR_GameManager>().money += 1000; // Change this variable to change how much money the player gains, when the rob the shop jewelry
+            GameManager.GetComponent<DR_GameManager>().money += 1000; // Change this variable to change how much money the player gains, when they rob the shop jewelry
         }
     }
 

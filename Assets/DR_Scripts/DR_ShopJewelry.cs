@@ -17,9 +17,12 @@ public class DR_ShopJewelry : MonoBehaviour
     public GameObject WorkerShopJewelryEngagedPosition;
 
     public bool WorkerShopJewelryCanLeaveShop = true;
+
+    public bool WorkerShopJewelryIsFullyDistracted = false;
+    
     public bool ShopJewelryCanBeRobbed = false;
 
-    public float workerShopJewelryMovementDuration = 3.5f; // Change this variable to change how quickly the worker jewelry shop will get to their destination, when they move
+    public float workerShopJewelryMovementDuration = 5.0f; // Change this variable to change how quickly the worker jewelry shop will get to their destination, when they move
 
     void Start()
     {
@@ -28,24 +31,26 @@ public class DR_ShopJewelry : MonoBehaviour
 
     void Update()
     {
-        if (GetComponent<DR_CrowdEngagement>().crowdEngagement >= 15.0f && WorkerShopJewelryCanLeaveShop == true) 
+        if (GetComponent<DR_CrowdEngagement>().crowdEngagement >= 10.0f && WorkerShopJewelryCanLeaveShop == true)
             // Change this variable to change the amount of crowd engagement that a player needs, to trigger the worker jewelry shop to come out
         {
             WorkerShopJewelryCanLeaveShop = false;
+
+            WorkerShopJewelry.SetActive(true);
 
             ShopJewelryDoorLeftOpen.SetActive(true);
             ShopJewelryDoorRightOpen.SetActive(true);
             ShopJewelryDoorLeftClosed.SetActive(false);
             ShopJewelryDoorRightClosed.SetActive(false);
 
-            ShopJewelryRobbingArea.SetActive(true);
-
             StartCoroutine(MoveWorkerShopJewelryTowardsPoint(workerShopJewelryMovementDuration));
         }
 
-        if (WorkerShopJewelryCanLeaveShop == true)
+        if (WorkerShopJewelryIsFullyDistracted == true)
         {
             ShopJewelryCanBeRobbed = true;
+
+            ShopJewelryRobbingArea.SetActive(true);
         }
     }
 
@@ -62,10 +67,10 @@ public class DR_ShopJewelry : MonoBehaviour
             yield return null;
         }
 
-        // Ensure the final position is exact to avoid floating-point errors
         WorkerShopJewelry.transform.position = workerShopJewelryEngagedPosition;
 
-        // Update current point
         WorkerShopJewelryCurrentPosition.transform.position = workerShopJewelryEngagedPosition;
+
+        WorkerShopJewelryIsFullyDistracted = true;
     }
 }

@@ -17,6 +17,8 @@ public class DR_TruckCouncil : MonoBehaviour
 
     public float truckCouncilMovementDuration = 5.0f; // Change this variable to change how quickly the truck council will get to its destination, when it moves
 
+    public bool TruckCouncilHasSpawned = false;
+
     void Start()
     {
         TruckCouncilCurrentPosition.transform.position = TruckCouncilStartPosition.transform.position;
@@ -24,9 +26,11 @@ public class DR_TruckCouncil : MonoBehaviour
 
     void Update()
     {
-        if (GetComponent<DR_CrowdEngagement>().crowdEngagement >= 15.0f)
+        if (GetComponent<DR_CrowdEngagement>().crowdEngagement >= 15.0f && TruckCouncilHasSpawned == false)
         // Change this variable to change the amount of crowd engagement that a player needs, to trigger the truck council to come out
         {
+            TruckCouncilHasSpawned = true;
+
             ManholeCover.SetActive(false);
 
             StartCoroutine(MoveTruckCouncilTowardsPoint(truckCouncilMovementDuration));

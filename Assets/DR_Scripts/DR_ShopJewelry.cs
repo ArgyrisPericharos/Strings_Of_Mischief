@@ -16,13 +16,13 @@ public class DR_ShopJewelry : MonoBehaviour
     public GameObject WorkerShopJewelryCurrentPosition;
     public GameObject WorkerShopJewelryEngagedPosition;
 
-    public bool WorkerShopJewelryCanLeaveShop = true;
-
     public bool WorkerShopJewelryIsFullyDistracted = false;
     
     public bool ShopJewelryCanBeRobbed = false;
 
     public float workerShopJewelryMovementDuration = 5.0f; // Change this variable to change how quickly the worker jewelry shop will get to their destination, when they move
+
+    public bool WorkerShopJewelryCanLeaveShop = true;
 
     void Start()
     {

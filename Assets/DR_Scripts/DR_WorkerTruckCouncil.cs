@@ -17,6 +17,8 @@ public class DR_WorkerTruckCouncil : MonoBehaviour
 
     public float workerTruckCouncilMovementDuration = 5.0f; // Change this variable to change how quickly the truck council will get to its destination, when it moves
 
+    public bool TruckCouncilRobbingAreaHasSpawned = false;
+
     void Start()
     {
         WorkerTruckCouncilCurrentPosition.transform.position = WorkerTruckCouncilStartPosition.transform.position;
@@ -24,7 +26,7 @@ public class DR_WorkerTruckCouncil : MonoBehaviour
 
     void Update()
     {
-        if (GetComponent<DR_TruckCouncil>().WorkerTruckCouncilCanBeSpawned == true)
+        if (GetComponent<DR_TruckCouncil>().WorkerTruckCouncilCanBeSpawned == true && TruckCouncilRobbingAreaHasSpawned == false)
         // Change this variable to change the amount of crowd engagement that a player needs, to trigger the truck council to come out
         {
             StartCoroutine(MoveWorkerTruckCouncilTowardsPoint(workerTruckCouncilMovementDuration));
@@ -32,6 +34,8 @@ public class DR_WorkerTruckCouncil : MonoBehaviour
 
         if (WorkerTruckCouncilIsFullyDistracted == true)
         {
+            TruckCouncilRobbingAreaHasSpawned = true;
+
             TruckCouncilCanBeRobbed = true;
 
             TruckCouncilRobbingArea.SetActive(true);

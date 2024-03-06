@@ -18,6 +18,6 @@ public class DR_GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        textMoney.text = "Money  =  $ " + money.ToString();
+        textMoney.text = "Money  =  $ " + money.ToString("F2");
     }
 }

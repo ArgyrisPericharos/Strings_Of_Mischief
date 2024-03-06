@@ -19,7 +19,7 @@ public class DR_TruckCouncilRob : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.GetComponent<DR_WorkerTruckCouncil>().TruckCouncilCanBeRobbed == true && PlayerHasEnteredTruckCouncilRobbingArea == true &&
+        if (GameManager.GetComponent<DR_WorkerTruckCouncilTwo>().TruckCouncilCanBeRobbed == true && PlayerHasEnteredTruckCouncilRobbingArea == true &&
             PlayerHasRobbedTruckCouncil == false && Input.GetKeyUp(KeyCode.F))
         {
             PlayerHasRobbedTruckCouncil = true;

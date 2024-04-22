@@ -68,8 +68,6 @@ public class GameManager : MonoBehaviour
         CrowdBar.fillAmount = CrowdSatisfaction / 100f;
 
 
-
-
         if (CrowdSatisfaction >= 60)
         {
             HandsUpEmoji.SetActive(true);

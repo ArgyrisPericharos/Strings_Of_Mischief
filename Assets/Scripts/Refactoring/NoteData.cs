@@ -6,8 +6,8 @@ using UnityEngine;
 public class NoteData : ScriptableObject
 {
     public int TypeOfNotes; // type of note, like hold down, tap, light tap
-    public float SpawnPointX; // spawn point coordinates
-    public float SpawnPointY;
-    public float SpawnPointZ;
+    public int TheObjectThatHitsThis;
+
     public float Timing; //timestamp of beat (when this is reached the type of note will be spawned)
+    public Color ColourIdentifier; // Green left, Red Next, yellow Next, Blue Last;
 }

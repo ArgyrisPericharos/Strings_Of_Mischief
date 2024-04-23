@@ -39,6 +39,13 @@ public class LeftArrowInputBox : MonoBehaviour
         
 
         }
+
+
+        //if other.gamObject.tag == "TapNoStrum" {
+        //Destroy other
+
+        //if other.gameObject.tag == "Hold" {
+        //firsttap with strum (like it was before) and then hold (you have tho hold the not button, but if you strum or let go thats it, u missed it) this would be done with different smaller objects that would all be part of a bigger chain that i will be deleting bit by bit
     }
 
 }

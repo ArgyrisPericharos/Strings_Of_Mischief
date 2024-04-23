@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject HandsUpEmoji, IndiferentEMoji;
 
-
+    public float TimeGoBy;
 
 
     //public float LostNotes, HitNotes;
@@ -31,9 +31,9 @@ public class GameManager : MonoBehaviour
 
     //public TMP_Text FieldOne, FieldTwo, FieldThree, FieldFour, FieldFive, FieldSix, FieldSeven, FieldEight, FieldNine, FieldTen, FieldEleven, FieldTwelve;
 
-   // public bool OrderWordList;
+    // public bool OrderWordList;
 
-   // public GameObject IndicatorBall;
+    // public GameObject IndicatorBall;
     public GameObject AudioObject;
 
     
@@ -63,6 +63,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        TimeGoBy += Time.deltaTime;
+
         CrowdSatisfaction = Mathf.Clamp(CrowdSatisfaction, 0, 100);
 
         CrowdBar.fillAmount = CrowdSatisfaction / 100f;

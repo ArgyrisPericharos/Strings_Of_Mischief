@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5330d0a14b003c74fa9bba672a0184e2, type: 3}
   m_Name: BeatOneb
   m_EditorClassIdentifier: 
-  TypeOfNotes: 0
-  SpawnPointX: 0
-  SpawnPointY: 0
-  SpawnPointZ: 0
-  Timing: 0
+  TypeOfNotes: 1
+  TheObjectThatHitsThis: 0
+  Timing: 1.3
+  ColourIdentifier: {r: 0.17572784, g: 1, b: 0, a: 0}

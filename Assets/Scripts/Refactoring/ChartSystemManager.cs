@@ -7,7 +7,9 @@ public class ChartSystemManager : MonoBehaviour
 {
     public List<NoteData> ChartNoteList;
     public List<GameObject> TypeOfNoteList;
-    public float TimeGoBy;
+    public List<GameObject> NoteObjectsList;
+    public GameManager Timer;
+    public Camera MainCamera;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,12 +19,12 @@ public class ChartSystemManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        TimeGoBy =+ Time.deltaTime;
-
-        if(TimeGoBy >= ChartNoteList[0].Timing) // needs a controling bollean
+        if (Timer.TimeGoBy >= ChartNoteList[0].Timing) // needs a controling bollean
         {
-            Instantiate(TypeOfNoteList[ChartNoteList[0].TypeOfNotes], new Vector3(ChartNoteList[0].SpawnPointX, ChartNoteList[0].SpawnPointY, ChartNoteList[0].SpawnPointZ), Quaternion.identity);
+            Instantiate(TypeOfNoteList[ChartNoteList[0].TypeOfNotes], new Vector3(NoteObjectsList[ChartNoteList[0].TheObjectThatHitsThis].transform.position.x, NoteObjectsList[ChartNoteList[0].TheObjectThatHitsThis].transform.position.y, NoteObjectsList[ChartNoteList[0].TheObjectThatHitsThis].transform.position.z + 1.3f), Quaternion.identity).transform.parent = MainCamera.transform;
+
             ChartNoteList.RemoveAt(0);
         }
     }
+    //notes need to be spawned 1.3f away from the z position of the cubes
 }

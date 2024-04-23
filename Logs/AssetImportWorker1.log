@@ -11,13 +11,13 @@ C:\Program Files\Unity 2022.3.4f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-D:/Argyris/Strings_Of_Mischief
+D:/Lukas/Strings_Of_Mischief
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58293
-Successfully changed project path to: D:/Argyris/Strings_Of_Mischief
-D:/Argyris/Strings_Of_Mischief
+50011
+Successfully changed project path to: D:/Lukas/Strings_Of_Mischief
+D:/Lukas/Strings_Of_Mischief
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,15 +49,15 @@ D:/Argyris/Strings_Of_Mischief
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21072] Host "[IP] 10.129.36.108 [Port] 0 [Flags] 2 [Guid] 4110742879 [EditorId] 4110742879 [Version] 1048832 [Id] WindowsEditor(7,DMW5B4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16628] Host "[IP] 10.129.35.212 [Port] 0 [Flags] 2 [Guid] 1297162809 [EditorId] 1297162809 [Version] 1048832 [Id] WindowsEditor(7,DMW5C6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21072] Host "[IP] 10.129.36.108 [Port] 0 [Flags] 2 [Guid] 4110742879 [EditorId] 4110742879 [Version] 1048832 [Id] WindowsEditor(7,DMW5B4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16628] Host "[IP] 10.129.35.212 [Port] 0 [Flags] 2 [Guid] 1297162809 [EditorId] 1297162809 [Version] 1048832 [Id] WindowsEditor(7,DMW5C6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 24.29 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 22.87 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Argyris/Strings_Of_Mischief/Assets
+[Subsystems] Discovering subsystems at path D:/Lukas/Strings_Of_Mischief/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -69,7 +69,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -78,48 +78,48 @@ Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/
 Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.025966 seconds.
-- Loaded All Assemblies, in  0.489 seconds
+Registered in 0.027917 seconds.
+- Loaded All Assemblies, in  0.495 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 881 ms
+Android Extension - Scanning For ADB Devices 302 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.309 seconds
-Domain Reload Profiling: 1796ms
-	BeginReloadAssembly (113ms)
+- Finished resetting the current domain, in  0.735 seconds
+Domain Reload Profiling: 1224ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (90ms)
-	LoadAllAssembliesAndSetupDomain (225ms)
-		LoadAssemblies (111ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (119ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (214ms)
-			TypeCache.Refresh (213ms)
-				TypeCache.ScanAssembly (194ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (182ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1310ms)
+	FinalizeReload (736ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1238ms)
+		SetupLoadedEditorAssemblies (667ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1054ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (497ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (122ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -127,11 +127,11 @@ Domain Reload Profiling: 1796ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lukas\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lukas\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.963 seconds
-Refreshing native plugins compatible for Editor in 7.48 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.224 seconds
+Refreshing native plugins compatible for Editor in 8.63 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
@@ -139,237 +139,122 @@ Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.782 seconds
-Domain Reload Profiling: 1741ms
-	BeginReloadAssembly (151ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (703ms)
-		LoadAssemblies (406ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (370ms)
-			TypeCache.Refresh (331ms)
-				TypeCache.ScanAssembly (309ms)
-			ScanForSourceGeneratedMonoScriptInfo (31ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (782ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (585ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (286ms)
-			ProcessInitializeOnLoadMethodAttributes (146ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 8.18 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4730 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 91 unused Assets / (195.5 KB). Loaded Objects now: 5171.
-Memory consumption went from 169.6 MB to 169.5 MB.
-Total: 7.499800 ms (FindLiveObjects: 0.375200 ms CreateObjectMapping: 0.220100 ms MarkObjects: 6.683900 ms  DeleteObjects: 0.219800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 5487.878843 seconds.
-  path: Assets/Scene
-  artifactKey: Guid(b983fe9fd6f08416cad9820f4b390096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene using Guid(b983fe9fd6f08416cad9820f4b390096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0012451a4a1f186bca48dfcac0c3a627') in 0.003914 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 11.09 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (134.1 KB). Loaded Objects now: 5171.
-Memory consumption went from 86.1 MB to 86.0 MB.
-Total: 10.358600 ms (FindLiveObjects: 0.452100 ms CreateObjectMapping: 0.275100 ms MarkObjects: 9.503500 ms  DeleteObjects: 0.126200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.189 seconds
-Refreshing native plugins compatible for Editor in 6.61 ms, found 4 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.254 seconds
-Domain Reload Profiling: 2438ms
-	BeginReloadAssembly (285ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (773ms)
-		LoadAssemblies (527ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (386ms)
-			TypeCache.Refresh (377ms)
-				TypeCache.ScanAssembly (356ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1255ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (637ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (52ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (281ms)
-			ProcessInitializeOnLoadMethodAttributes (183ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 8.93 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4688 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (176.9 KB). Loaded Objects now: 5186.
-Memory consumption went from 159.6 MB to 159.4 MB.
-Total: 6.844600 ms (FindLiveObjects: 0.409800 ms CreateObjectMapping: 0.222600 ms MarkObjects: 6.049600 ms  DeleteObjects: 0.161200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 9170.614636 seconds.
-  path: Assets/PrefabsForExport/DeathBoxSquare (1).prefab
-  artifactKey: Guid(9c75c3417c472094bb07304125805665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabsForExport/DeathBoxSquare (1).prefab using Guid(9c75c3417c472094bb07304125805665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77470f173487aa95c882556dc445940f') in 0.182018 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PrefabsForExport/Game_Arrow - Copy.png
-  artifactKey: Guid(5a2d49a944788064891e8c7fba75f6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PrefabsForExport/Game_Arrow - Copy.png using Guid(5a2d49a944788064891e8c7fba75f6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e790fabf50975930cceba75ad9dc8a1') in 0.058524 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1364.606796 seconds.
-  path: Assets/Prefabs/LeftSphere.prefab
-  artifactKey: Guid(1fe2d75632e0ecf4c8f7e83929c448eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LeftSphere.prefab using Guid(1fe2d75632e0ecf4c8f7e83929c448eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68baa5305c9fefd9629e4d84ebc63ff9') in 0.300741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.204 seconds
-Refreshing native plugins compatible for Editor in 8.81 ms, found 4 plugins.
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.261 seconds
-Domain Reload Profiling: 2459ms
-	BeginReloadAssembly (265ms)
+- Finished resetting the current domain, in  1.047 seconds
+Domain Reload Profiling: 2268ms
+	BeginReloadAssembly (206ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
+		CreateAndSetChildDomain (26ms)
 	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (817ms)
-		LoadAssemblies (542ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (869ms)
+		LoadAssemblies (512ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (407ms)
-			TypeCache.Refresh (396ms)
-				TypeCache.ScanAssembly (367ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1261ms)
+		AnalyzeDomain (453ms)
+			TypeCache.Refresh (409ms)
+				TypeCache.ScanAssembly (377ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1047ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (625ms)
+		SetupLoadedEditorAssemblies (784ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (422ms)
+			ProcessInitializeOnLoadMethodAttributes (182ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 10.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4730 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 91 unused Assets / (203.6 KB). Loaded Objects now: 5171.
+Memory consumption went from 169.6 MB to 169.4 MB.
+Total: 9.388100 ms (FindLiveObjects: 0.508100 ms CreateObjectMapping: 0.266200 ms MarkObjects: 8.311900 ms  DeleteObjects: 0.300700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 667.292855 seconds.
+  path: Assets/wiimote.prefab
+  artifactKey: Guid(6c509caf9128fe74ea7b4ed653760824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wiimote.prefab using Guid(6c509caf9128fe74ea7b4ed653760824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3bed7fb5cd770192818e94093e9392') in 0.671659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lukas\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lukas\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.168 seconds
+Refreshing native plugins compatible for Editor in 11.33 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.226 seconds
+Domain Reload Profiling: 2390ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (803ms)
+		LoadAssemblies (472ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (443ms)
+			TypeCache.Refresh (427ms)
+				TypeCache.ScanAssembly (405ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1227ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (642ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (60ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (105ms)
-			ProcessInitializeOnLoadAttributes (275ms)
-			ProcessInitializeOnLoadMethodAttributes (166ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 8.87 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 7.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4687 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (176.7 KB). Loaded Objects now: 5212.
-Memory consumption went from 159.5 MB to 159.4 MB.
-Total: 7.717400 ms (FindLiveObjects: 0.420700 ms CreateObjectMapping: 0.267100 ms MarkObjects: 6.863800 ms  DeleteObjects: 0.164900 ms)
+Unloading 61 unused Assets / (176.6 KB). Loaded Objects now: 5194.
+Memory consumption went from 159.5 MB to 159.3 MB.
+Total: 10.014800 ms (FindLiveObjects: 0.376500 ms CreateObjectMapping: 0.219400 ms MarkObjects: 9.251100 ms  DeleteObjects: 0.167100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -380,6 +265,1528 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 204.294178 seconds.
+  path: Assets/Art/a407e18dcdee2d1ab637acd48c91ae91.png
+  artifactKey: Guid(2f9cbc9c2c6b4a941be87ecd83f8a357) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/a407e18dcdee2d1ab637acd48c91ae91.png using Guid(2f9cbc9c2c6b4a941be87ecd83f8a357) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14e7edc1b4ac075ac44567442736bb67') in 0.247191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PT_Scripts/PT_Basic_Physics_Move.cs
+  artifactKey: Guid(8bcdaac17fcc2f64f9dcdbdea21125a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PT_Scripts/PT_Basic_Physics_Move.cs using Guid(8bcdaac17fcc2f64f9dcdbdea21125a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f24d1ca57b77bc5250ae7c263412f97') in 0.016212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/ExtDataDemo.cs
+  artifactKey: Guid(793d39ffe54174864a29466ded9046f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/ExtDataDemo.cs using Guid(793d39ffe54174864a29466ded9046f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f35faac372e6ac5a7f65c09a70d371f') in 0.011361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Materials/Material__12.mat
+  artifactKey: Guid(8739eb37081ddbd4bb714f4393385074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Materials/Material__12.mat using Guid(8739eb37081ddbd4bb714f4393385074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd024fb4ac1ca36adcb987dc154804de3') in 0.029198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PT_Prefabs/Ramp.prefab
+  artifactKey: Guid(bcae3d7742ea5b442946676317ceee06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PT_Prefabs/Ramp.prefab using Guid(bcae3d7742ea5b442946676317ceee06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d984429ceaf14734e704445e20f008a') in 0.056142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PrefabsForExport/EndScreenFunction.cs
+  artifactKey: Guid(78f1bbd1a1afe194fa340c98150c8457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrefabsForExport/EndScreenFunction.cs using Guid(78f1bbd1a1afe194fa340c98150c8457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2462a84fdd0f1ce8aba93711076f457') in 0.014729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PrefabsForExport/Movement.cs
+  artifactKey: Guid(d6716be95558da54bbced5fd6f169162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrefabsForExport/Movement.cs using Guid(d6716be95558da54bbced5fd6f169162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2eb26b5226abc0eb64d87dda974bc4b1') in 0.012796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Materials/Black.mat
+  artifactKey: Guid(55fbecb430f13a847938b440ee61a636) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Materials/Black.mat using Guid(55fbecb430f13a847938b440ee61a636) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86e09deaf79d0a6073f85c690433ea09') in 0.013674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DR_Scripts/DR_ShopJewelry.cs
+  artifactKey: Guid(d7c19096a8971864e9570ec9989d48ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DR_Scripts/DR_ShopJewelry.cs using Guid(d7c19096a8971864e9570ec9989d48ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd7f81f3a2fdf6c20646516e3f9d2729') in 0.012225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/SkyboxProbe-0.exr
+  artifactKey: Guid(720decca22a524f41ba1e2b5da229485) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SkyboxProbe-0.exr using Guid(720decca22a524f41ba1e2b5da229485) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de8efdec72d400ad7f129d18c7b2e4de') in 0.027555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/wiimote.jpg
+  artifactKey: Guid(ec89eaa430a80c14b8ed9a0fea41bbe9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/wiimote.jpg using Guid(ec89eaa430a80c14b8ed9a0fea41bbe9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5277f0d647fc5fb00d83b35f6522667') in 0.025913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PrefabsForExport/DeathBox.cs
+  artifactKey: Guid(21ba7e89ff5fee54e80ad67686a1692e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrefabsForExport/DeathBox.cs using Guid(21ba7e89ff5fee54e80ad67686a1692e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eabd1b75cda28c47137161b2a3efee62') in 0.010995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DR_Materials/GrayDark.mat
+  artifactKey: Guid(05b0143f923c4c94dbd95b0bd95c2be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DR_Materials/GrayDark.mat using Guid(05b0143f923c4c94dbd95b0bd95c2be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1273e3357dab7bb041bd32de63e481d') in 0.014067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PrefabsForExport/UpArrowInputBox.cs
+  artifactKey: Guid(648e0f733190d0d4b9826ca29e1e6da6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrefabsForExport/UpArrowInputBox.cs using Guid(648e0f733190d0d4b9826ca29e1e6da6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c578cd9bdb50ef98f2650c41c3e4a939') in 0.010179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Camera/Camera.prefab
+  artifactKey: Guid(4bbf1a7ab9822154086b03ae6fcc7e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Camera/Camera.prefab using Guid(4bbf1a7ab9822154086b03ae6fcc7e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47492e02bf920c3071ebe99febc77240') in 0.015540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PrefabsForExport/LeftArrowInputBox.cs
+  artifactKey: Guid(9cbad9f980a4a5c409d413158300b88a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrefabsForExport/LeftArrowInputBox.cs using Guid(9cbad9f980a4a5c409d413158300b88a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '570439bbe4085428dbf2a8804bfcc0ca') in 0.011689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Materials/Blue.mat
+  artifactKey: Guid(c2b7877b71c671440ac2fd8a0731465a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Materials/Blue.mat using Guid(c2b7877b71c671440ac2fd8a0731465a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52a3a9dfedd5687b3be962e729516f87') in 0.012703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5bcd4ea8f1d33fbc62d92d9fd6d4e9ab') in 0.033410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40102bc4409dc1edc8e56a604abff362') in 0.008992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95a2d4229df249e399d6e011c5fbc217') in 0.038012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PrefabsForExport/audiomass-output.mp3
+  artifactKey: Guid(c64f26a8519acf043948058de85f62f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrefabsForExport/audiomass-output.mp3 using Guid(c64f26a8519acf043948058de85f62f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94d93f4779bacc28ddf15c7f8e20d5e7') in 0.079286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/DR_Materials/Yellow.mat
+  artifactKey: Guid(e2c0b75bdb8d80042b3d70dbee965bb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DR_Materials/Yellow.mat using Guid(e2c0b75bdb8d80042b3d70dbee965bb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a6e720a7004df91dae9e85a31c79d10') in 0.012774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Materials/White.mat
+  artifactKey: Guid(4e1d8f5b4d30db747a101230c2b9e947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Materials/White.mat using Guid(4e1d8f5b4d30db747a101230c2b9e947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e785062cbd0a90451973cb25b254066') in 0.011998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DR_Scripts/DR_ShopJewelryRob.cs
+  artifactKey: Guid(b5b95364d10e6ea4883a46ef8bd20900) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DR_Scripts/DR_ShopJewelryRob.cs using Guid(b5b95364d10e6ea4883a46ef8bd20900) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6df7c48dedf24a7ff30dd73ec4b7afbb') in 0.009881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PT_Scripts/PT_Basic_Move.cs
+  artifactKey: Guid(8d77ef2dde1aebf4489de567930b64d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PT_Scripts/PT_Basic_Move.cs using Guid(8d77ef2dde1aebf4489de567930b64d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0772a9cd6345327ad8e9d9c6f010444e') in 0.011308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PrefabsForExport/SceneChange.cs
+  artifactKey: Guid(023cbafa40ae54148b9cd8ae6c4c5480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrefabsForExport/SceneChange.cs using Guid(023cbafa40ae54148b9cd8ae6c4c5480) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f25241d1d7b8f0b0850ab81350316a3') in 0.010132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DR_Scripts/DR_CrowdMemberAIMovement.cs
+  artifactKey: Guid(e4f128f42c8c7964081172985523d7c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DR_Scripts/DR_CrowdMemberAIMovement.cs using Guid(e4f128f42c8c7964081172985523d7c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63fd427037adc1272ffbf4173621c167') in 0.010619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60a496c90b0eaadb37e745e5c2b21e53') in 0.008451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PrefabsForExport/NoteManagerScript.cs
+  artifactKey: Guid(91c0138a8fc8d584ca5e60d83228ecf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrefabsForExport/NoteManagerScript.cs using Guid(91c0138a8fc8d584ca5e60d83228ecf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aca6a71a951a2c017c034d5fddd47796') in 0.009371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PT_Scripts/PT_Side_Scrolling_Follow_Camera.cs
+  artifactKey: Guid(4e8510cb3faf20a45a9ec1056999436d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PT_Scripts/PT_Side_Scrolling_Follow_Camera.cs using Guid(4e8510cb3faf20a45a9ec1056999436d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd37c4092f88ea20a7c5101c7de31f3a9') in 0.011331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DR_Materials/BlueLight.mat
+  artifactKey: Guid(ef33613f8c6325547ba743bf1e7a3583) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DR_Materials/BlueLight.mat using Guid(ef33613f8c6325547ba743bf1e7a3583) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6f84a5d953ff811ea9b638b91e533ee') in 0.013825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85362fb6d044feb92b742994b210e6bb') in 0.009590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Emoji_u1f64c.svg.png
+  artifactKey: Guid(9d315c68c467a7e4f94438d9514abf0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Emoji_u1f64c.svg.png using Guid(9d315c68c467a7e4f94438d9514abf0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5d04a07d5575c04f1306d6025938e4b') in 0.047378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0232408d1642f01b088437679a8b84c2') in 0.015847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PrefabsForExport/Game_Arrow.png
+  artifactKey: Guid(42d9597574ffefd4f8adb240e9f0823b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrefabsForExport/Game_Arrow.png using Guid(42d9597574ffefd4f8adb240e9f0823b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5ead607ff4843c1e6e7387702c1dfcf') in 0.027696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04438f2f9a2cf663f23dcce2415b2977') in 0.017385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PrefabsForExport/RightArrowInputBox.cs
+  artifactKey: Guid(c27809c396e042b45a0d40b2219421b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrefabsForExport/RightArrowInputBox.cs using Guid(c27809c396e042b45a0d40b2219421b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff5f9aae006c1945f2c3c5775f3ca210') in 0.009837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DR_Materials/White.mat
+  artifactKey: Guid(f00e5194517b5104badcb27f20719f83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DR_Materials/White.mat using Guid(f00e5194517b5104badcb27f20719f83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '638fcafce234cdf9669da3ba685d28c6') in 0.013204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f952782cb395f6c80b974a4e6f0d9d4b') in 0.009541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/orange-color-solid-background-1920x1080.png
+  artifactKey: Guid(9578cef99da600d4d8d2e132799f56a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/orange-color-solid-background-1920x1080.png using Guid(9578cef99da600d4d8d2e132799f56a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4930ff156c1d6956bdad4b10c9e9b46') in 0.026833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/BillingMode.json
+  artifactKey: Guid(111934b1b34395542be89c452f323988) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/BillingMode.json using Guid(111934b1b34395542be89c452f323988) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae8085a5396b519bcbd5f52294a82625') in 0.009098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DR_Materials/GrayLight.mat
+  artifactKey: Guid(37dad94fe3bb8c24c93af9c05898983c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DR_Materials/GrayLight.mat using Guid(37dad94fe3bb8c24c93af9c05898983c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '876970790987d0e32fa47bedeb5b8ba5') in 0.012174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/DR_Materials/Black.mat
+  artifactKey: Guid(ac1a0995559b6dd459df21f4a5a9f7e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DR_Materials/Black.mat using Guid(ac1a0995559b6dd459df21f4a5a9f7e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40964bf0b345ac56bd707d27fea40481') in 0.011079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff102a480f6309c87f33f5b5d508fe52') in 0.047749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/2D/2DConfiner.unity
+  artifactKey: Guid(e11fb1e768032e34c8edfeb0c722585b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/2D/2DConfiner.unity using Guid(e11fb1e768032e34c8edfeb0c722585b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4f855877b6e23eae8532b275d69bd6e') in 0.008767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/CameraMagnets/CameraMagnetTargetController.cs
+  artifactKey: Guid(ace3da63156d542cfaa364312c5f2cb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/CameraMagnets/CameraMagnetTargetController.cs using Guid(ace3da63156d542cfaa364312c5f2cb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14aa78cb69ccff0471b7d6056b29d280') in 0.009888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/2D/2D Zoom.unity
+  artifactKey: Guid(c213658e6f9d94cc8a659682e6529958) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/2D/2D Zoom.unity using Guid(c213658e6f9d94cc8a659682e6529958) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbff7b925b438a4c668bafdc2b05c05d') in 0.010142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Wiimote/Scripts/WiimoteData/MotionPlusData.cs
+  artifactKey: Guid(fcbc9f7491037954684ef4ecd777d906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wiimote/Scripts/WiimoteData/MotionPlusData.cs using Guid(fcbc9f7491037954684ef4ecd777d906) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fd0217f4d5f568f09251253d6a3d039') in 0.010007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Wiimote/Scripts/WiimoteData/NunchuckData.cs
+  artifactKey: Guid(0bbe453355b439742842ed55cd1f3924) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wiimote/Scripts/WiimoteData/NunchuckData.cs using Guid(0bbe453355b439742842ed55cd1f3924) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29611a0ffeaf5691a306ec53b77ec35b') in 0.010229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/2D/LoseSightWhenTargetsFallsOffThePlatform.cs
+  artifactKey: Guid(0cbbbc9a14b13468b91c6d14ed9c0cb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/2D/LoseSightWhenTargetsFallsOffThePlatform.cs using Guid(0cbbbc9a14b13468b91c6d14ed9c0cb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '602a5a1462fae0d6dead511d357e6672') in 0.010129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Free Look character.unity
+  artifactKey: Guid(0528bb957dac1144381cf6a42f81df38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Free Look character.unity using Guid(0528bb957dac1144381cf6a42f81df38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f589f8b3d57f17576ed31c607803b56') in 0.008156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Composer Look Ahead.unity
+  artifactKey: Guid(61b5ea647cdbb48fdb1a3d2a02c01524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Composer Look Ahead.unity using Guid(61b5ea647cdbb48fdb1a3d2a02c01524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffec798e25f1dee82b638ecd9184f74c') in 0.008047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Wiimote/Scripts/WiimoteData/ButtonData.cs
+  artifactKey: Guid(48c4286a80d7a3d4692e351e811cf7a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wiimote/Scripts/WiimoteData/ButtonData.cs using Guid(48c4286a80d7a3d4692e351e811cf7a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20bea6fa1987f48b0491521cd202db05') in 0.011400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Wiimote/Scripts/WiimoteData/IRData.cs
+  artifactKey: Guid(8ce4c54d3c40d3246b360c5aa8314559) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wiimote/Scripts/WiimoteData/IRData.cs using Guid(8ce4c54d3c40d3246b360c5aa8314559) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e82476549ed9464abde4887a2ba0f067') in 0.009508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/StateDrivenCamera.unity
+  artifactKey: Guid(e6d0e9a5409154682a7c300fc5a43bd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/StateDrivenCamera.unity using Guid(e6d0e9a5409154682a7c300fc5a43bd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '800752ba1ac8b7f8410e385b58dca05a') in 0.008702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/MixingCamera.unity
+  artifactKey: Guid(eba1856f8ff8547e8b258da0d720abd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/MixingCamera.unity using Guid(eba1856f8ff8547e8b258da0d720abd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdf82efa5b6da2a98c1d0fe181f27962') in 0.007623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/2D/2D Fighters.unity
+  artifactKey: Guid(879d480263d0a431b99a866e6d2e8342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/2D/2D Fighters.unity using Guid(879d480263d0a431b99a866e6d2e8342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c900ae0080a28289f8747302b29b077e') in 0.008386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Wiimote/Scripts/WiimoteData/StatusData.cs
+  artifactKey: Guid(892e7813c76b70044b22b0d699412cbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wiimote/Scripts/WiimoteData/StatusData.cs using Guid(892e7813c76b70044b22b0d699412cbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f2eb43e0dbe3a7ae5832e7e11c7972e') in 0.010775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Free Look collider.unity
+  artifactKey: Guid(ac5706d3cdc93b3448bcac9040cf4501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Free Look collider.unity using Guid(ac5706d3cdc93b3448bcac9040cf4501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39ddc5de811a9a12d58d7180af3e5e8c') in 0.009102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/CAM1.renderTexture
+  artifactKey: Guid(e6d6687ecf534413f9989d00d53729b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/CAM1.renderTexture using Guid(e6d6687ecf534413f9989d00d53729b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55dc93534e464e6dcdb31ac660742eb5') in 0.016416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/BossCamera/BossLookAt.cs
+  artifactKey: Guid(592741a13a2c742df9e6c1d3a7d9da6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/BossCamera/BossLookAt.cs using Guid(592741a13a2c742df9e6c1d3a7d9da6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9fbc46b7cfef4a31ff4304154ba8b58b') in 0.008531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/ClearShot/ClearShot character.unity
+  artifactKey: Guid(34bc393830658254383047ad769a0260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/ClearShot/ClearShot character.unity using Guid(34bc393830658254383047ad769a0260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85eda23c938e1486ef02b374c5de679b') in 0.009187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/ClearShot/ClearShot.unity
+  artifactKey: Guid(413b8252e697cc248bd7f808be30b4bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/ClearShot/ClearShot.unity using Guid(413b8252e697cc248bd7f808be30b4bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b547c622ec05af99f25392492da7877a') in 0.007854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/3rdPersonWithAimMode/ActivateOnKeypress.cs
+  artifactKey: Guid(e8fce4bd108661c4d9740aea3bc971ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/3rdPersonWithAimMode/ActivateOnKeypress.cs using Guid(e8fce4bd108661c4d9740aea3bc971ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8409dd3814a4741401caea73cdcbaf78') in 0.009888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/Lightmap-0_comp_dir.png
+  artifactKey: Guid(49f39d631ef86416c9eef8f45c543517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/Lightmap-0_comp_dir.png using Guid(49f39d631ef86416c9eef8f45c543517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fbb1a13eeab8ee487cb4efa2db681af') in 0.023431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2f2d4e624dbf9e604ad2abb08b2bd92') in 0.010136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/AimingRig/AimReticle.cs
+  artifactKey: Guid(bc7d68869689ce241999a4e22f40d026) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/AimingRig/AimReticle.cs using Guid(bc7d68869689ce241999a4e22f40d026) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '587edefcce88a32c423ef7d0aff9d754') in 0.011685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/ScreenCutoutShader.shader
+  artifactKey: Guid(183125437b6c743da9938978c38fae53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/ScreenCutoutShader.shader using Guid(183125437b6c743da9938978c38fae53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12e1c27fe9cbdb97029674d47bb67803') in 0.011095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/GuitarTesting.cs
+  artifactKey: Guid(7019de679c1fc81428fb26d847531ace) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/GuitarTesting.cs using Guid(7019de679c1fc81428fb26d847531ace) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27234a2a65b41e4a5ddc2763713d5019') in 0.009921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/FollowCam Simple Follow.unity
+  artifactKey: Guid(46f2f298fff4d4deb99a6e5ff6c597cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/FollowCam Simple Follow.unity using Guid(46f2f298fff4d4deb99a6e5ff6c597cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c3cf7334bcb458319a97b087754e6d9') in 0.007699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/PlayerLookAt.cs
+  artifactKey: Guid(72a83c61f88104a25b325c58327605b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/PlayerLookAt.cs using Guid(72a83c61f88104a25b325c58327605b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '939509142b8e48a2b0509be4f15c81e5') in 0.008409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Art/wiimote.blend
+  artifactKey: Guid(8cdc4414f4f67f747b84ae9f3c86c17d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/wiimote.blend using Guid(8cdc4414f4f67f747b84ae9f3c86c17d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '099010a3e9af54d283586aaf50e7e94c') in 0.038724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '031c529e1edc5913ebd96794731cbbf7') in 0.014459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Materials/wiimote.mat
+  artifactKey: Guid(45ba3f0db9511724fb1810409e9ca019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Materials/wiimote.mat using Guid(45ba3f0db9511724fb1810409e9ca019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdff62cffe1692b113d5e9c4c5226172') in 0.012226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PT_Scripts/PT_Basic_CC_Move.cs
+  artifactKey: Guid(bdc84179dcf8ed94baddc86b1588031c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PT_Scripts/PT_Basic_CC_Move.cs using Guid(bdc84179dcf8ed94baddc86b1588031c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08ba2a171730a250b613338af1036877') in 0.009409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/Materials/Material__16.mat
+  artifactKey: Guid(a4024869fa5a4904d9be34b1ae782955) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Materials/Material__16.mat using Guid(a4024869fa5a4904d9be34b1ae782955) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '481fd94df1400e96e25d9bd5bc6c15c4') in 0.010639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DR_Scripts/DR_PolicemanAIMovement.cs
+  artifactKey: Guid(e40b5071069e4e646b1d66cb7d9704fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DR_Scripts/DR_PolicemanAIMovement.cs using Guid(e40b5071069e4e646b1d66cb7d9704fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25084f6bdf79aa7ba75c15d0c36c35fd') in 0.009687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Materials/Material__17__wiimote_jpg_011.mat
+  artifactKey: Guid(809e98b65fc3e834ca0a5144e94acab1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Materials/Material__17__wiimote_jpg_011.mat using Guid(809e98b65fc3e834ca0a5144e94acab1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1586a7fe26b31ad2b90f066241206248') in 0.011206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Materials/Dark Red.mat
+  artifactKey: Guid(36ef872013957aa4397d86b310b88a92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Art/Materials/Dark Red.mat using Guid(36ef872013957aa4397d86b310b88a92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28dab820782739dcf25e63cd3234b4e7') in 0.009816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/AimingRig/AimingRig.unity
+  artifactKey: Guid(8ad62c20b502850419e9fbe043d2d6f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/AimingRig/AimingRig.unity using Guid(8ad62c20b502850419e9fbe043d2d6f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a77c27fb6c68a9078354bf022dceba07') in 0.008332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Wiimote/Scripts/WiimoteData/AccelData.cs
+  artifactKey: Guid(be22862c7701a934fa0a1559ab6f2cba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wiimote/Scripts/WiimoteData/AccelData.cs using Guid(be22862c7701a934fa0a1559ab6f2cba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3d51b345c7254c9995c996de46b9524') in 0.011329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DR_Materials/GreenDark.mat
+  artifactKey: Guid(bb88441953b246a4891c733511a9bab8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DR_Materials/GreenDark.mat using Guid(bb88441953b246a4891c733511a9bab8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '423f4063b80e2ca216d90f298d98eaff') in 0.010152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ea4c9168530a637f58a61590a570206') in 0.013516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Wiimote/Scripts/WiimoteData/GuitarData.cs
+  artifactKey: Guid(4749d3471994b49eb8f416106bc3b94b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wiimote/Scripts/WiimoteData/GuitarData.cs using Guid(4749d3471994b49eb8f416106bc3b94b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6e6ec16dd1edb57c1db79b245bc79e1') in 0.008705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/Anywhere Door.unity
+  artifactKey: Guid(b529975e8111541b2a49fabcaeed0aeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/Anywhere Door.unity using Guid(b529975e8111541b2a49fabcaeed0aeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34122e5a5a2270f7490e56bdc9010231') in 0.008608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '315895a4effc35c54f5acac42ade216c') in 0.009157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e60199c97baffc02a466ae39a765367f') in 0.008731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PrefabsForExport/DownArrowInputBox.cs
+  artifactKey: Guid(02952d167a072c144aa28e4004e69293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrefabsForExport/DownArrowInputBox.cs using Guid(02952d167a072c144aa28e4004e69293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '547e119f38df8cce7c9edcaadd14a7e0') in 0.009509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Animation/cube A motion.anim
+  artifactKey: Guid(463bd22a50e6c0746a334d0be54ee31c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Animation/cube A motion.anim using Guid(463bd22a50e6c0746a334d0be54ee31c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38f62b09ce24102b864425abdb163038') in 0.013665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_LWall_10x10.fbx
+  artifactKey: Guid(b6e2207db377b584bb472dd15da85dd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_LWall_10x10.fbx using Guid(b6e2207db377b584bb472dd15da85dd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef924314fe55cbaa33088bbab7cf7d85') in 0.021032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Scripting/Scripting.unity
+  artifactKey: Guid(cf06b937097386042bdcbbe7b95d848c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Scripting/Scripting.unity using Guid(cf06b937097386042bdcbbe7b95d848c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '700d8d0b94751e975a8da4dd24c596fe') in 0.008401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/ActivateCameraWithDistance.cs
+  artifactKey: Guid(36562141f3e01c7499f91e66f806814c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/ActivateCameraWithDistance.cs using Guid(36562141f3e01c7499f91e66f806814c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12f86129186febec4bc53336d38a6670') in 0.010429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/ClearShot/TIMELINE world animsTimeline.playable
+  artifactKey: Guid(5262d1493e5ee44478fc4bd8907b5553) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/ClearShot/TIMELINE world animsTimeline.playable using Guid(5262d1493e5ee44478fc4bd8907b5553) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cd849a364dc436263384ca27f341683') in 0.018739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Trigger volumes/GenericTrigger.cs
+  artifactKey: Guid(ae2e8d9cd0201fb46ba38269b8ee1ae6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Trigger volumes/GenericTrigger.cs using Guid(ae2e8d9cd0201fb46ba38269b8ee1ae6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c64cc54c4b67ec4feda7202d5a6170c2') in 0.008462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/FadeOutNearbyObjects/FadeOutNearbyObjects.unity
+  artifactKey: Guid(66e41717fb9b345fba6a187d1a1b8ff5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/FadeOutNearbyObjects/FadeOutNearbyObjects.unity using Guid(66e41717fb9b345fba6a187d1a1b8ff5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42bf7966eb895651783df9b16ec0697d') in 0.011201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Timeline/Timeline.unity
+  artifactKey: Guid(7c0cf64c0c36a43a2808d53f72a88db3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Timeline/Timeline.unity using Guid(7c0cf64c0c36a43a2808d53f72a88db3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88147d5cc94e213e8a5f58176d0ec2cc') in 0.009922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/ClearShot/CM ClearShot1 Blends.asset
+  artifactKey: Guid(fd722b8418d6acb49b2d765f94556347) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/ClearShot/CM ClearShot1 Blends.asset using Guid(fd722b8418d6acb49b2d765f94556347) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfc80dc4a6ace7dfbd0ede78b1a09c49') in 0.013727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Trigger volumes/Trigger cube.prefab
+  artifactKey: Guid(eb2690c0771f68c48823fc4a7816d734) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Trigger volumes/Trigger cube.prefab using Guid(eb2690c0771f68c48823fc4a7816d734) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8481cd5a603ea104928fe91263a20a9c') in 0.011392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/ActivateCamOnPlay.cs
+  artifactKey: Guid(2cfb0b06d5a4af5429ea7f2b67fd8579) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/ActivateCamOnPlay.cs using Guid(2cfb0b06d5a4af5429ea7f2b67fd8579) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd121cf86af3bef914f2ea309a1eb709b') in 0.009691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Textures/GridBox_blue.png
+  artifactKey: Guid(f63eea91ff30e6d48800caa1ebc457ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Textures/GridBox_blue.png using Guid(f63eea91ff30e6d48800caa1ebc457ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18f51e33e3e68f1fa1ccc8ea024875a4') in 0.021163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Textures/GridBox_Trigger.tga
+  artifactKey: Guid(1ba5e9ac4a1333240aade937f08bbcff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Textures/GridBox_Trigger.tga using Guid(1ba5e9ac4a1333240aade937f08bbcff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7f7cffe00840aa8d9c0bfb1456a27da') in 0.022557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Tracked Dolly/Dolly Cart.unity
+  artifactKey: Guid(c557ce004c05be04d88d232ede508c83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Tracked Dolly/Dolly Cart.unity using Guid(c557ce004c05be04d88d232ede508c83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8f6a08c6c15e58b4ff07538fe6b95f3') in 0.007942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/InvokeEventFromInspector.cs
+  artifactKey: Guid(38ed7ef6fdf27884498af1842cbb6799) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/InvokeEventFromInspector.cs using Guid(38ed7ef6fdf27884498af1842cbb6799) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6595f36276f4de0125165804e709736') in 0.010337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Impulse/ShakingCube.prefab
+  artifactKey: Guid(819f88648001df94e8dfc62c43971341) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Impulse/ShakingCube.prefab using Guid(819f88648001df94e8dfc62c43971341) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dacac6671ea59acdda14c3e62a4022c5') in 0.014474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Materials/Default_Prototype_Blue.mat
+  artifactKey: Guid(89db8b11e2538314a89bde42040c3c94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Materials/Default_Prototype_Blue.mat using Guid(89db8b11e2538314a89bde42040c3c94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57580a9b808a0b86d48b98594d2291e3') in 0.011475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/ExampleHelpWindow.cs
+  artifactKey: Guid(803b00b1c55094e499a99684ddbd9b57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/ExampleHelpWindow.cs using Guid(803b00b1c55094e499a99684ddbd9b57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae52ad03697ecc94fefe45ac9307b89f') in 0.010528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Tracked Dolly/Dolly Group.unity
+  artifactKey: Guid(43c985989a71b7046963a051123f9688) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Tracked Dolly/Dolly Group.unity using Guid(43c985989a71b7046963a051123f9688) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c615e00ddc9efa10d3901249e19e01a') in 0.009031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Transposer/Cube.controller
+  artifactKey: Guid(025857098477b614e9d28478a5b9c90e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Transposer/Cube.controller using Guid(025857098477b614e9d28478a5b9c90e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '575ec941b810043de90c3423a95eebae') in 0.018319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/Environment_CorridorMixingCam.prefab
+  artifactKey: Guid(309ca2bfc1e81fa4eb43845cbdf4a42b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/Environment_CorridorMixingCam.prefab using Guid(309ca2bfc1e81fa4eb43845cbdf4a42b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c7d64c0b56831eee2c59bf02edab1e1') in 0.011432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Impulse/ImpulseWave.unity
+  artifactKey: Guid(266f924736a4cff4e8da6f481bf2371c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Impulse/ImpulseWave.unity using Guid(266f924736a4cff4e8da6f481bf2371c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a8d81f469be84a61fd8c9ba788292cc') in 0.008404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/Stage2.prefab
+  artifactKey: Guid(df69f5ef4222b65458627bdaf63f9039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/Stage2.prefab using Guid(df69f5ef4222b65458627bdaf63f9039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f64775f34ee629e59cd0852954fb1cd') in 0.012246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Materials/Bouncy 1.physicmaterial
+  artifactKey: Guid(c9bec0ecadc5ab6479d11776b9b63b5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Materials/Bouncy 1.physicmaterial using Guid(c9bec0ecadc5ab6479d11776b9b63b5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2eb383682c63fe1d30be219c4e73e26b') in 0.011109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/Materials/CAM1.mat
+  artifactKey: Guid(e27c6515627c1451b9c20d5af1e8b528) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/Materials/CAM1.mat using Guid(e27c6515627c1451b9c20d5af1e8b528) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fe5423639e2dc203f7346249e28e5ff') in 0.009267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Custom Blends/Noise_CM_4.asset
+  artifactKey: Guid(90a11b0bd26895e4ab6d8538b8d1e699) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Custom Blends/Noise_CM_4.asset using Guid(90a11b0bd26895e4ab6d8538b8d1e699) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '301fa4071c2661e204737a5d3904ad91') in 0.010188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Scripting/ScriptingExample.cs
+  artifactKey: Guid(6d5ce1f09df6bab47b1f6760b02dec74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Scripting/ScriptingExample.cs using Guid(6d5ce1f09df6bab47b1f6760b02dec74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a940ad598e2f974f84ac4e8df29a540') in 0.011089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_1Wall_10x10.fbx
+  artifactKey: Guid(f4737444c0dcc1a42804e080a539da5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_1Wall_10x10.fbx using Guid(f4737444c0dcc1a42804e080a539da5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4af2a7f24b8b220c313a458a5af6eba5') in 0.019409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Wall_10x4.fbx
+  artifactKey: Guid(8801006d6478aea478f9320df4476f30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Wall_10x4.fbx using Guid(8801006d6478aea478f9320df4476f30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62cef9b66f777e703bea3ebaddaccb22') in 0.019796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Materials/RedThing.mat
+  artifactKey: Guid(768ffdf2b6949054488c74579e87288b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Materials/RedThing.mat using Guid(768ffdf2b6949054488c74579e87288b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43c74bd232811096855dbff6ed160733') in 0.010561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_2Walls_10x10.fbx
+  artifactKey: Guid(d0a29522a2fadfb4f8ca407cd2e8e1ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_2Walls_10x10.fbx using Guid(d0a29522a2fadfb4f8ca407cd2e8e1ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8769cb90f74f31949c96f85d15066673') in 0.020224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Animation/Cube.controller
+  artifactKey: Guid(d8a44ee0b5d2d874f952ffc00abf8298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Animation/Cube.controller using Guid(d8a44ee0b5d2d874f952ffc00abf8298) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1294f969d58c80003e770a18aa52ee9') in 0.008811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Tracked Dolly/Dolly Auto.unity
+  artifactKey: Guid(0025b5c57acfe5944bc2cbfaf8278c44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Tracked Dolly/Dolly Auto.unity using Guid(0025b5c57acfe5944bc2cbfaf8278c44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5367bb9bce1e75b485f95954a2770473') in 0.007988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Custom Blends/Custom Blends.unity
+  artifactKey: Guid(8c865f08a064ad642b085d11fe21a48f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Custom Blends/Custom Blends.unity using Guid(8c865f08a064ad642b085d11fe21a48f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f627ffd0f599f9161cd40d7afef991db') in 0.007986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/ThirdPersonFollowDistanceModifier.cs
+  artifactKey: Guid(546027855273aed40809fd72c01c960a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/ThirdPersonFollowDistanceModifier.cs using Guid(546027855273aed40809fd72c01c960a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2090778631dddc6bd0ebc2b4dbdc267b') in 0.010064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Transposer/cube movement.anim
+  artifactKey: Guid(348fa7e7cdf52ee4c996c8fd82291c24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Transposer/cube movement.anim using Guid(348fa7e7cdf52ee4c996c8fd82291c24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'debf8be0cc092707cc8ffc26133f1de9') in 0.020085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/Environment_Narrow_Walls.prefab
+  artifactKey: Guid(0998cc0e377e9034c86e90787a3070b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/Environment_Narrow_Walls.prefab using Guid(0998cc0e377e9034c86e90787a3070b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43b5631da09171fb7218c5acec30f99c') in 0.009764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/DualTarget/MoveAimTarget.cs
+  artifactKey: Guid(a011386a758cb0d4fb1c134870b847ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/DualTarget/MoveAimTarget.cs using Guid(a011386a758cb0d4fb1c134870b847ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a161908d53032291c8d155702ce84f5c') in 0.010252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006198 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Textures/checkerboard.png
+  artifactKey: Guid(0b343b179d2251243a8bbed3fe8e2773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Textures/checkerboard.png using Guid(0b343b179d2251243a8bbed3fe8e2773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd09230f8773daf297b11e287a1ba9830') in 0.021688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/DefaultMale.fbx
+  artifactKey: Guid(8837f192a88abd84da9f1907d0b6bdb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/DefaultMale.fbx using Guid(8837f192a88abd84da9f1907d0b6bdb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd5efc82cafd3535c04b08857d3f90cb') in 0.031744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 150
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Albedo.tif
+  artifactKey: Guid(7299335822211614ba0371ee22e46641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Albedo.tif using Guid(7299335822211614ba0371ee22e46641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f9ae4d2fffcd77bba8a7cfc91606582') in 0.025741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Jog.fbx
+  artifactKey: Guid(fdc39e3202ebc4d4a8a473fd95fcff55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Jog.fbx using Guid(fdc39e3202ebc4d4a8a473fd95fcff55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6895ad0ce92c31b9923deb5ed347a377') in 0.046903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 157
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Scripts/CharacterMovement.cs
+  artifactKey: Guid(5281785fbe32be4488391fbe4acda0d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Scripts/CharacterMovement.cs using Guid(5281785fbe32be4488391fbe4acda0d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16f7cbce5875ca8ee3bd1a478a70e2ce') in 0.010808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Materials/DefaultMale_Mat.mat
+  artifactKey: Guid(d7f8b496adee38e4a9edc877d5939f5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Materials/DefaultMale_Mat.mat using Guid(d7f8b496adee38e4a9edc877d5939f5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e86818e4f7edfccdbb38cd77b8e6a9cd') in 0.024456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Controllers/CharacterController.controller
+  artifactKey: Guid(7a9f599c49797434485c0e1d9e99f200) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Controllers/CharacterController.controller using Guid(7a9f599c49797434485c0e1d9e99f200) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75db6d0ee413c696408fd27f7a001acc') in 0.053047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Prefabs/3rdPersonController.prefab
+  artifactKey: Guid(f9dee39d229a4bb4087224760ba2d338) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Prefabs/3rdPersonController.prefab using Guid(f9dee39d229a4bb4087224760ba2d338) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfa07985deb8cb9e6194a541f7dc0916') in 0.057490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 166
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Sprint.fbx
+  artifactKey: Guid(7fa1f9e8c2e4188478cbd5a152ce790e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Animations/Sprint.fbx using Guid(7fa1f9e8c2e4188478cbd5a152ce790e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a19f59102cd9db347f27b3d8c8185708') in 0.035375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Normal.tif
+  artifactKey: Guid(dd91d06b39ab6db48974409beafe5d94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Normal.tif using Guid(dd91d06b39ab6db48974409beafe5d94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3002d68d32c53a3076d992698b3348e5') in 0.022887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Scripts/CharacterMovement2D.cs
+  artifactKey: Guid(44f5d1b3342d4e34593e4f948d951750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Scripts/CharacterMovement2D.cs using Guid(44f5d1b3342d4e34593e4f948d951750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db903f61c202f432b17d40c8f0c8c15a') in 0.009735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/PlayerMoveOnSphere.cs
+  artifactKey: Guid(85b757e40164bd3408008c7df6b949d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/PlayerMoveOnSphere.cs using Guid(85b757e40164bd3408008c7df6b949d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3460f71d0ee01e5f287e4d2f9c40af59') in 0.011906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/InputSystemHelper.cs
+  artifactKey: Guid(5204e51f84074d79a29384cce2de3747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/InputSystemHelper.cs using Guid(5204e51f84074d79a29384cce2de3747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99cdc044234f3b45992491e1a07a64df') in 0.008706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/CameraMagnets/CameraMagnets.unity
+  artifactKey: Guid(82050a5e658e54977b6df11e26b6990f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/CameraMagnets/CameraMagnets.unity using Guid(82050a5e658e54977b6df11e26b6990f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88c2404cc2a10c774c69469e3392abb8') in 0.007771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PT_Prefabs/Platform.prefab
+  artifactKey: Guid(8333982b3a7432042ba3c2bb4a674c6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PT_Prefabs/Platform.prefab using Guid(8333982b3a7432042ba3c2bb4a674c6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c613fa2f314a92702593297ddb94b24') in 0.015132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PrefabsForExport/DeathBoxSquare (1).prefab
+  artifactKey: Guid(9c75c3417c472094bb07304125805665) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PrefabsForExport/DeathBoxSquare (1).prefab using Guid(9c75c3417c472094bb07304125805665) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a91b792bf4140d8ecfc5aad2c47a779e') in 0.017338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10.fbx
+  artifactKey: Guid(47d4df8e0a6e85a4c8448ec117ba07df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Prefabs/FBX/ProB_Floor_10x10.fbx using Guid(47d4df8e0a6e85a4c8448ec117ba07df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '266696da8d5810d3df4105b6b5a8dd05') in 0.019601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/PlayerMovement.cs
+  artifactKey: Guid(75e8c05fb2e3047bdb20258b4e40d88c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/PlayerMovement.cs using Guid(75e8c05fb2e3047bdb20258b4e40d88c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '370c5dc999452954758f517813018b4f') in 0.009380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Materials/Ground big.mat
+  artifactKey: Guid(0e079ef97504e314080afe2ab2599e87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Materials/Ground big.mat using Guid(0e079ef97504e314080afe2ab2599e87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42acfee7dce6abaa0a3b9eb23ec8899e') in 0.010324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/Refactoring/Bianca'sSongChartList/BeatOneb.asset
+  artifactKey: Guid(c19f78365afbd664bba573c409b20f6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Refactoring/Bianca'sSongChartList/BeatOneb.asset using Guid(c19f78365afbd664bba573c409b20f6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55958dabd2c2ed1844e655464398d3b4') in 0.009208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/SimpleElevator.cs
+  artifactKey: Guid(fde54f5cdf0dd46bbadfe8535c25f217) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Scripts/SimpleElevator.cs using Guid(fde54f5cdf0dd46bbadfe8535c25f217) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c22c57bd3d602bde38851d850df987d') in 0.011962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Wiimote/Scripts/WiimoteData/WiimoteData.cs
+  artifactKey: Guid(60f7bcb0e4ca5984ca1186bd5c8af7db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wiimote/Scripts/WiimoteData/WiimoteData.cs using Guid(60f7bcb0e4ca5984ca1186bd5c8af7db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29551bdaf795ba967e1c259522aa1799') in 0.008912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (126.3 KB). Loaded Objects now: 5195.
+Memory consumption went from 88.2 MB to 88.0 MB.
+Total: 9.407600 ms (FindLiveObjects: 0.441800 ms CreateObjectMapping: 0.259300 ms MarkObjects: 8.498200 ms  DeleteObjects: 0.207000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3823.569164 seconds.
+  path: Assets/Scenes/DamiScene.unity
+  artifactKey: Guid(00763b24ee9e9ba48ad8b752b7112d5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/DamiScene.unity using Guid(00763b24ee9e9ba48ad8b752b7112d5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d17fc15d27ca421e705734b5d44419a') in 0.029962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1051.255367 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Textures/checkerboard.png
+  artifactKey: Guid(0b343b179d2251243a8bbed3fe8e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Textures/checkerboard.png using Guid(0b343b179d2251243a8bbed3fe8e2773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37374795f27b716767dc203a32a85469') in 0.083823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Occlusion.tif
+  artifactKey: Guid(6ea50cf81e05dce4395defcd7888072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Occlusion.tif using Guid(6ea50cf81e05dce4395defcd7888072c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4daea2ed9761804f85e870662089032') in 0.014992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Textures/crosshair.png
+  artifactKey: Guid(1a1da36a104725048b8d2388fb8d321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Textures/crosshair.png using Guid(1a1da36a104725048b8d2388fb8d321d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ff4ab6daa8e7dbb0bc0efc7639bc79') in 0.032098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Albedo.tif
+  artifactKey: Guid(7299335822211614ba0371ee22e46641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Models/Textures/DefaultMale_Albedo.tif using Guid(7299335822211614ba0371ee22e46641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563ddddef0851bd6c03cf66b46675450') in 0.014757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.499353 seconds.
+  path: Assets/PrefabsForExport/Game_Arrow - Copy.png
+  artifactKey: Guid(5a2d49a944788064891e8c7fba75f6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsForExport/Game_Arrow - Copy.png using Guid(5a2d49a944788064891e8c7fba75f6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e790fabf50975930cceba75ad9dc8a1') in 0.031867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.070803 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Textures/GridBox_Default.png
+  artifactKey: Guid(9470468fda72f4773a90a0306decbf0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Textures/GridBox_Default.png using Guid(9470468fda72f4773a90a0306decbf0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2c153f461a485c9e1d45b4f78bb346') in 0.019984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.459195 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Textures/GridBox_Trigger.png
+  artifactKey: Guid(a14ac3ec63e90e7419f00be590aed374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Shared/Textures/GridBox_Trigger.png using Guid(a14ac3ec63e90e7419f00be590aed374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3014f3bc0f3b20e22eff12f1cb73ea') in 0.022835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.534966 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ac937339a211d784fcca7fe2e02f9d') in 0.065760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.404880 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/Lightmap-0_comp_light.exr
+  artifactKey: Guid(6d40b024da9664dd89399754274f6761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/Anywhere Door/Lightmap-0_comp_light.exr using Guid(6d40b024da9664dd89399754274f6761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19678fa7522bc00d0afed124d4cd1bfe') in 0.032846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.391876 seconds.
+  path: Packages/com.unity.purchasing/Icons/LinkWhite.png
+  artifactKey: Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/LinkWhite.png using Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6538c512cf38859cc1e7fc62e8df3f62') in 0.025691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.053526 seconds.
+  path: Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/CameraMagnets/Proximity.png
+  artifactKey: Guid(a29985f57f2a444dcae5c5e3a1ad420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Cinemachine/2.9.7/Cinemachine Example Scenes/Scenes/CameraMagnets/Proximity.png using Guid(a29985f57f2a444dcae5c5e3a1ad420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b93e8874c089ff307e0c1f19c554651') in 0.025916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Lukas\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Lukas\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.249 seconds
+Refreshing native plugins compatible for Editor in 8.13 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.210 seconds
+Domain Reload Profiling: 2454ms
+	BeginReloadAssembly (305ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (804ms)
+		LoadAssemblies (527ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (420ms)
+			TypeCache.Refresh (408ms)
+				TypeCache.ScanAssembly (377ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1210ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (166ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 8.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4687 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (185.0 KB). Loaded Objects now: 5253.
+Memory consumption went from 160.5 MB to 160.3 MB.
+Total: 7.595300 ms (FindLiveObjects: 0.387400 ms CreateObjectMapping: 0.219700 ms MarkObjects: 6.805400 ms  DeleteObjects: 0.182000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

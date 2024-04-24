@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: BeatOneb 1
   m_EditorClassIdentifier: 
   TypeOfNotes: 1
-  TheObjectThatHitsThis: 0
-  Timing: 1.5
+  TheObjectThatHitsThis: 1
+  Timing: 2
   ColourIdentifier: {r: 0.17572784, g: 1, b: 0, a: 0}
+  SpawnPozitionModifierZ: 1.3

@@ -25,6 +25,25 @@ public class DeathBox : MonoBehaviour
         if (other.gameObject.tag == "Arrows")
         {
             Destroy(other.gameObject);
+            
+            //gamemanagerscript.GetComponent<GameManager>().LostNotes += 1;
+            //gamemanagerscript.GetComponent<GameManager>().ListOfWordFields[0].GetComponent<TextMeshProUGUI>().color = Color.gray;
+            // gamemanagerscript.GetComponent<GameManager>().ListOfWordFields.RemoveAt(0);
+
+        }
+        if (other.gameObject.tag == "StrumTap")
+        {
+            Destroy(other.gameObject);
+            gamemanager.CrowdSatisfaction -= 2;
+            //gamemanagerscript.GetComponent<GameManager>().LostNotes += 1;
+            //gamemanagerscript.GetComponent<GameManager>().ListOfWordFields[0].GetComponent<TextMeshProUGUI>().color = Color.gray;
+            // gamemanagerscript.GetComponent<GameManager>().ListOfWordFields.RemoveAt(0);
+
+        }
+
+        if (other.gameObject.tag == "TapNoStrum")
+        {
+            Destroy(other.gameObject);
             gamemanager.CrowdSatisfaction -= 2;
             //gamemanagerscript.GetComponent<GameManager>().LostNotes += 1;
             //gamemanagerscript.GetComponent<GameManager>().ListOfWordFields[0].GetComponent<TextMeshProUGUI>().color = Color.gray;

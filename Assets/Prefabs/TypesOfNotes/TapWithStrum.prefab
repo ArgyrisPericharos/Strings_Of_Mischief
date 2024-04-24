@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: -5819491705264119489}
   - component: {fileID: -7585469946834456068}
   m_Layer: 0
-  m_Name: DownSphere
-  m_TagString: Arrows
+  m_Name: TapWithStrum
+  m_TagString: StrumTap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8e226c65daef76548bfd410f2a57bfe3, type: 2}
+  - {fileID: 2100000, guid: 29e4ae563c5219e49af63d08540a54ec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

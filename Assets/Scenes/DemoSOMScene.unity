@@ -7538,6 +7538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChartNoteList:
   - {fileID: 11400000, guid: c19f78365afbd664bba573c409b20f6c, type: 2}
+  - {fileID: 11400000, guid: 496a31f3865c9504da2f9542604c96c9, type: 2}
   TypeOfNoteList:
   - {fileID: 3632574084173509607, guid: a6db2905c3038ed4ebc969df47b250b3, type: 3}
   - {fileID: 177005104867170749, guid: 1fe2d75632e0ecf4c8f7e83929c448eb, type: 3}

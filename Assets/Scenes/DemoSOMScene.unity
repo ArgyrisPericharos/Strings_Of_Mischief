@@ -4529,6 +4529,12 @@ MonoBehaviour:
   TimeGoBy: 0
   AudioSource: {fileID: 0}
   ListOfSongs: []
+  SongOne: []
+  SongTwo: []
+  NotesHit: 0
+  NotesMissed: 0
+  NoteSuccessrate: 0
+  MenuOn: 0
 --- !u!4 &703712699
 Transform:
   m_ObjectHideFlags: 0
@@ -5322,7 +5328,7 @@ MonoBehaviour:
   - {fileID: 56270388}
   - {fileID: 1048950922}
   ir_pointer: {fileID: 2053116506}
-  gamemanager: {fileID: 703712697}
+  gamemanager: {fileID: 703712698}
   Green: {fileID: 2077734846}
   Red: {fileID: 1073937736}
   Yellow: {fileID: 2076350805}
@@ -5335,6 +5341,7 @@ MonoBehaviour:
   StartStrumDownTimer: 0
   StartStrumUpTimer: 0
   MinusPressed: 0
+  PlusPressed: 0
   GUIGo: 1
 --- !u!4 &804095484 stripped
 Transform:

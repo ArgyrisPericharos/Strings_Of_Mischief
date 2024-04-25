@@ -30,6 +30,7 @@ public class LeftArrowInputBox : MonoBehaviour
                 Debug.Log("Hit");
                 Destroy(other.gameObject);
                 gamemanager.CrowdSatisfaction += 5;
+                gamemanager.NotesHit += 1;
                 //gamemanagerscript.GetComponent<GameManager>().HitNotes += 1;
                
             }
@@ -41,6 +42,7 @@ public class LeftArrowInputBox : MonoBehaviour
         if (other.gameObject.tag == "TapNoStrum")
         {
             Destroy(other.gameObject);
+            gamemanager.NotesHit += 1;
         }
 
 

@@ -34,7 +34,8 @@ public class DeathBox : MonoBehaviour
         if (other.gameObject.tag == "StrumTap")
         {
             Destroy(other.gameObject);
-            gamemanager.CrowdSatisfaction -= 2;
+            gamemanager.CrowdSatisfaction -= 4;
+            gamemanager.NotesHit -= 1;
             //gamemanagerscript.GetComponent<GameManager>().LostNotes += 1;
             //gamemanagerscript.GetComponent<GameManager>().ListOfWordFields[0].GetComponent<TextMeshProUGUI>().color = Color.gray;
             // gamemanagerscript.GetComponent<GameManager>().ListOfWordFields.RemoveAt(0);
@@ -45,6 +46,7 @@ public class DeathBox : MonoBehaviour
         {
             Destroy(other.gameObject);
             gamemanager.CrowdSatisfaction -= 2;
+            gamemanager.NotesHit -= 1;
             //gamemanagerscript.GetComponent<GameManager>().LostNotes += 1;
             //gamemanagerscript.GetComponent<GameManager>().ListOfWordFields[0].GetComponent<TextMeshProUGUI>().color = Color.gray;
             // gamemanagerscript.GetComponent<GameManager>().ListOfWordFields.RemoveAt(0);

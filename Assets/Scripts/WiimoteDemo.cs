@@ -24,7 +24,7 @@ public class WiimoteDemo : MonoBehaviour {
 
     private Vector3 wmpOffset = Vector3.zero;
 
-    public GameObject gamemanager;
+    public GameManager gamemanager;
 
     public GameObject Green, Red, Yellow, Blue;
 
@@ -36,7 +36,7 @@ public class WiimoteDemo : MonoBehaviour {
 
     public bool StartStrumDownTimer, StartStrumUpTimer;
 
-    public bool MinusPressed;
+    public bool MinusPressed, PlusPressed;
     public bool GUIGo = true;
 
     void Start() {
@@ -66,17 +66,23 @@ public class WiimoteDemo : MonoBehaviour {
             }
         } while (ret > 0);
 
-        if (Input.GetKey("e"))
+        if (GUIGo == true)
         {
-            GUIGo = false;
-            gamemanager.SetActive(true);
+            if (Input.GetKey("e"))
+            {
+                GUIGo = false;
+                // gamemanager.SetActive(true);
+            }
         }
-        if (Input.GetKey("f"))
+        else if (GUIGo == false)
         {
-            GUIGo = true;
+            if (Input.GetKey("e"))
+            {
+                GUIGo = true;
+            }
         }
-       
-
+        
+        
         model.a.enabled = wiimote.Button.a;
         model.b.enabled = wiimote.Button.b;
         model.one.enabled = wiimote.Button.one;
@@ -91,42 +97,82 @@ public class WiimoteDemo : MonoBehaviour {
 
         if (wiimote.current_ext == ExtensionController.GUITAR)
         {
-            GuitarData data = wiimote.Guitar;
-            Green.SetActive(data.green);
-            Red.SetActive(data.red);
-            Yellow.SetActive(data.yellow);
-            Blue.SetActive(data.blue);
+            GuitarData data = wiimote.Guitar;           
             MinusPressed = data.minus;
+            PlusPressed = data.plus;
             float[] stick = data.GetStick01();
 
             
-            if (data.strum_down)
-            {    
-                
-                StartStrumDownTimer = true;
+            
 
-            }
-            else
+            if (gamemanager.MenuOn == true)
             {
-                StartStrumDownTimer = false;
-                StrumDownTime = 0.2f;
-
+                //use the strum for navigation, green button to select? and the plus to turn menu off
+                if (PlusPressed)
+                {
+                    //turn menu off
+                }
             }
-
-
-            if (data.strum_up)
+            else if (gamemanager.MenuOn == false)
             {
+                Green.SetActive(data.green);
+                Red.SetActive(data.red);
+                Yellow.SetActive(data.yellow);
+                Blue.SetActive(data.blue);
+                  
+                if (data.strum_up)
+                {
 
-                StartStrumUpTimer = true;
+                    StartStrumUpTimer = true;
+
+                }
+                else
+                {
+                    StartStrumUpTimer = false;
+                    StrumUpTime = 0.2f;
+
+                }
+
+                if (data.strum_down)
+                {
+
+                    StartStrumDownTimer = true;
+
+                }
+                else
+                {
+                    StartStrumDownTimer = false;
+                    StrumDownTime = 0.2f;
+
+                }
+
+                if (PlusPressed)
+                {
+                    // turn menu on
+                    
+                }
+
+                if (MinusPressed)
+                {
+                    //stealing action
+                }
+
+                if (gamemanager.startsong == false)
+                {
+                    //drop band when activating green, red,yellow,blue and strum
+                    if (data.green && data.red && data.yellow && data.blue && (StrumIsUp || StrumIsDown))
+                    {
+                        //instantiate prefab band
+                    }
+                }
+                else if (gamemanager.startsong == true)
+                {
+                    //nothing
+                }
 
             }
-            else
-            {
-                StartStrumUpTimer = false;
-                StrumUpTime = 0.2f;
 
-            }
-
+                    
             if (stick[0] <= 0.4 )
             {
                 //right
@@ -147,6 +193,8 @@ public class WiimoteDemo : MonoBehaviour {
                 PlayerToMove.AddRelativeForce(0, 0, -3);
                 //up
             }
+
+            
 
         }
 

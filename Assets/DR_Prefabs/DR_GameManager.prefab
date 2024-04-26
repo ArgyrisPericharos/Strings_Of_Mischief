@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8069352919184947029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7294432944240403010}
+  - component: {fileID: 4812154993703838492}
+  - component: {fileID: 5972415284931958046}
+  - component: {fileID: 1365575574050302394}
+  - component: {fileID: 6235325907440477499}
+  - component: {fileID: 7639844713121345087}
+  - component: {fileID: 5911623122393846722}
+  m_Layer: 0
+  m_Name: DR_GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7294432944240403010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8069352919184947029}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4812154993703838492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8069352919184947029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bff97ef0c8ef4a244a507e604814cfa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: 0
+  textMoney: {fileID: 0}
+--- !u!114 &5972415284931958046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8069352919184947029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c85630fd3fbb674a8881f6e2f466e29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crowdEngagement: 5
+--- !u!114 &1365575574050302394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8069352919184947029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c19096a8971864e9570ec9989d48ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShopJewelryDoorLeftClosed: {fileID: 0}
+  ShopJewelryDoorRightClosed: {fileID: 0}
+  ShopJewelryDoorLeftOpen: {fileID: 0}
+  ShopJewelryDoorRightOpen: {fileID: 0}
+  ShopJewelryRobbingArea: {fileID: 0}
+  WorkerShopJewelry: {fileID: 0}
+  WorkerShopJewelryStartPosition: {fileID: 0}
+  WorkerShopJewelryCurrentPosition: {fileID: 0}
+  WorkerShopJewelryEngagedPosition: {fileID: 0}
+  WorkerShopJewelryIsFullyDistracted: 0
+  ShopJewelryCanBeRobbed: 0
+  workerShopJewelryMovementDuration: 5
+  WorkerShopJewelryCanLeaveShop: 1
+--- !u!114 &6235325907440477499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8069352919184947029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95fd5452a647a494fbdf03bc6d77e068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ManholeCover: {fileID: 0}
+  TruckCouncil: {fileID: 0}
+  TruckCouncilStartPosition: {fileID: 0}
+  TruckCouncilCurrentPosition: {fileID: 0}
+  TruckCouncilEngagedPosition: {fileID: 0}
+  WorkerTruckCouncil: {fileID: 0}
+  WorkerTruckCouncilCanBeSpawned: 0
+  truckCouncilMovementDuration: 10
+  TruckCouncilHasSpawned: 0
+--- !u!114 &7639844713121345087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8069352919184947029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9970f0c255d7948a8b9cc5a4979d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TruckCouncilRobbingArea: {fileID: 0}
+  WorkerTruckCouncil: {fileID: 0}
+  WorkerTruckCouncilStartPosition: {fileID: 0}
+  WorkerTruckCouncilCurrentPosition: {fileID: 0}
+  WorkerTruckCouncilEngagedPosition: {fileID: 0}
+  WorkerTruckCouncilIsFullyDistracted: 0
+  TruckCouncilCanBeRobbed: 0
+  workerTruckCouncilMovementDuration: 5
+  TruckCouncilRobbingAreaHasSpawned: 0
+--- !u!114 &5911623122393846722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8069352919184947029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ac4b0526cb4ce14c8a4149abfba6894, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameManager: {fileID: 8069352919184947029}
+  PlayerHasRobbedTruckCouncil: 0
+  PlayerHasEnteredTruckCouncilRobbingArea: 0

@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class DR_TruckCouncilRob : MonoBehaviour
 {
-    public GameObject GameManager;
-
     public bool PlayerHasRobbedTruckCouncil = false;
 
     public bool PlayerHasEnteredTruckCouncilRobbingArea = false;
+
+    public GameObject Camera;
 
     // Start is called before the first frame update
     void Start()
@@ -19,20 +19,24 @@ public class DR_TruckCouncilRob : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.GetComponent<DR_WorkerTruckCouncilThree>().TruckCouncilCanBeRobbed == true && PlayerHasEnteredTruckCouncilRobbingArea == true &&
-            PlayerHasRobbedTruckCouncil == false && Input.GetKeyUp(KeyCode.F))
+        if (this.gameObject.GetComponent<DR_WorkerTruckCouncilThree>().TruckCouncilCanBeRobbed == true && PlayerHasEnteredTruckCouncilRobbingArea == true &&
+            PlayerHasRobbedTruckCouncil == false)
         {
             PlayerHasRobbedTruckCouncil = true;
 
-            GameManager.GetComponent<DR_GameManager>().money += 200; // Change this variable to change how much money the player gains, when they rob the truck council
+            this.gameObject.GetComponent<GameManager>().money += 200; // Change this variable to change how much money the player gains, when they rob the truck council
         }
     }
 
-    void OnTriggerEnter(Collider collider)
+    void OnTriggerStay(Collider collider)
     {
         if (collider.gameObject.tag == "Player")
         {
-            PlayerHasEnteredTruckCouncilRobbingArea = true;
+            if (Camera.GetComponent<WiimoteDemo>().MinusPressed)
+            {
+                PlayerHasEnteredTruckCouncilRobbingArea = true;
+            }
+            
         }
     }
 

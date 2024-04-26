@@ -11,6 +11,8 @@ public class DR_ShopJewelryRob : MonoBehaviour
 
     public bool PlayerHasEnteredShopJewelryRobbingArea = false;
 
+    public GameObject Camera;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +23,7 @@ public class DR_ShopJewelryRob : MonoBehaviour
     void Update()
     {
         if (GameManager.GetComponent<DR_ShopJewelry>().ShopJewelryCanBeRobbed == true && PlayerHasEnteredShopJewelryRobbingArea == true &&
-            PlayerHasRobbedShopJewelry == false && Input.GetKeyUp(KeyCode.F))
+            PlayerHasRobbedShopJewelry == false)
         {
             PlayerHasRobbedShopJewelry = true;
 
@@ -33,7 +35,11 @@ public class DR_ShopJewelryRob : MonoBehaviour
     {
         if (collider.gameObject.tag == "Player")
         {
-            PlayerHasEnteredShopJewelryRobbingArea = true;
+            
+            if (Camera.GetComponent<WiimoteDemo>().MinusPressed)
+            {
+                    PlayerHasEnteredShopJewelryRobbingArea = true;
+            }
         }
     }
 

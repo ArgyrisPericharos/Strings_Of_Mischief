@@ -21,7 +21,7 @@ public class DR_CrowdMemberAIMovement : MonoBehaviour
 
     }
 
-    IEnumerator ChangeRotationAndMovePeriodically()
+    public IEnumerator ChangeRotationAndMovePeriodically()
     {
         while (true)
         {
@@ -45,7 +45,7 @@ public class DR_CrowdMemberAIMovement : MonoBehaviour
         StartCoroutine(MoveCrowdMemberTowardsDirection(CrowdMember.transform.forward, crowdMemberRandomMovementDistance, crowdMemberMovementDuration));
     }
 
-    IEnumerator MoveCrowdMemberTowardsDirection(Vector3 crowdMemberMovementDirection, float crowdMemberMovementDistance, float crowdMemberMovementDuration)
+    public IEnumerator MoveCrowdMemberTowardsDirection(Vector3 crowdMemberMovementDirection, float crowdMemberMovementDistance, float crowdMemberMovementDuration)
     {
         float startCrowdMemberMovementTime = Time.time;
         Vector3 crowdMemberStartPosition = CrowdMember.transform.position;

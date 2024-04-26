@@ -5,6 +5,7 @@ using System.Text;
 using System;
 using WiimoteApi;
 using System.Security.Cryptography;
+using Unity.VisualScripting;
 
 public class WiimoteDemo : MonoBehaviour {
 
@@ -25,6 +26,8 @@ public class WiimoteDemo : MonoBehaviour {
     private Vector3 wmpOffset = Vector3.zero;
 
     public GameManager gamemanager;
+    public GameObject Player;
+    public GameObject Band;
 
     public GameObject Green, Red, Yellow, Blue;
 
@@ -112,6 +115,23 @@ public class WiimoteDemo : MonoBehaviour {
                 {
                     //turn menu off
                 }
+                if (data.strum_down)
+                {                   
+                    //go down in the navigation of the menu
+                }
+                if (data.strum_up)
+                {                   
+                    // go up in the navigation of the menu
+                }
+                if (data.green)
+                {
+                    //select yes?
+                }
+                if (data.red)
+                {
+                    //go back or exit
+                }
+
             }
             else if (gamemanager.MenuOn == false)
             {
@@ -155,15 +175,25 @@ public class WiimoteDemo : MonoBehaviour {
                 if (MinusPressed)
                 {
                     //stealing action
+
                 }
 
                 if (gamemanager.startsong == false)
                 {
-                    //drop band when activating green, red,yellow,blue and strum
-                    if (data.green && data.red && data.yellow && data.blue && (StrumIsUp || StrumIsDown))
+                    if (gamemanager.InSpawnableArea)
                     {
-                        //instantiate prefab band
+                        if (data.green && data.red && data.yellow && data.blue && (StrumIsUp || StrumIsDown))
+                        {
+                             
+                            gamemanager.startsong = true;
+                            gamemanager.AudioSource.SetActive(true);
+                            Band.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y, Player.transform.position.z - 1f);
+                            gamemanager.AudioSource.transform.position = Band.transform.position;
+                                                 
+                        }
                     }
+                    //drop band when activating green, red,yellow,blue and strum
+                    
                 }
                 else if (gamemanager.startsong == true)
                 {

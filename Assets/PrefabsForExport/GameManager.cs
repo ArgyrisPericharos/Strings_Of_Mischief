@@ -22,8 +22,7 @@ public class GameManager : MonoBehaviour
     // song list, these songs will get assigned in the Note list in ChartSystemManager script.
     public List<NoteData> SongOne;
     public List<NoteData> SongTwo;
-
-
+    
     //Notes hit, Notes missed
     public float NotesHit;
     public float NotesMissed;
@@ -31,13 +30,19 @@ public class GameManager : MonoBehaviour
     public float NoteSuccessrate; // (NotesHit / (Noteshit + NotesMissed)) * 100 = (precentage of success rate)
 
     public bool MenuOn; //turn this on from wiimote script
-    // Start is called before the first frame update
+
+    public bool InSpawnableArea; //this would be changeable based on where the player is at in the level (trigger box placements)
+
+
+    //public Text textMoney; //money UI text
+    public float money = 0.0f; //money value
     void Start()
     {
         CrowdSatisfaction = 40;
-
+        MenuOn = false;
+        AudioSource.SetActive(false);
    
-
+        
     }
 
     // Update is called once per frame
@@ -61,8 +66,8 @@ public class GameManager : MonoBehaviour
 
         CrowdBar.fillAmount = CrowdSatisfaction / 100f;
 
+        //textMoney.text = "Money  =  $ " + money.ToString("F2");
 
- 
     }
 
 

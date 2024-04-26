@@ -24,14 +24,17 @@ public class DR_ShopJewelry : MonoBehaviour
 
     public bool WorkerShopJewelryCanLeaveShop = true;
 
+    public bool WithinArea;
+
     void Start()
     {
         WorkerShopJewelryCurrentPosition.transform.position = WorkerShopJewelryStartPosition.transform.position;
+        WithinArea = false;
     }
 
     void Update()
     {
-        if (GetComponent<DR_CrowdEngagement>().crowdEngagement >= 10.0f && WorkerShopJewelryCanLeaveShop == true)
+        if (this.gameObject.GetComponent<GameManager>().CrowdSatisfaction >= 10.0f && WorkerShopJewelryCanLeaveShop == true && WithinArea)
             // Change this variable to change the amount of crowd engagement that a player needs, to trigger the worker jewelry shop to come out
         {
             WorkerShopJewelryCanLeaveShop = false;

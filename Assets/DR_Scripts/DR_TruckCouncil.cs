@@ -19,14 +19,18 @@ public class DR_TruckCouncil : MonoBehaviour
 
     public bool TruckCouncilHasSpawned = false;
 
+    public bool WithinArea; //in the Band triggerbox come back here and activate this
+
+
     void Start()
     {
         TruckCouncilCurrentPosition.transform.position = TruckCouncilStartPosition.transform.position;
+        WithinArea = false;
     }
 
     void Update()
     {
-        if (GetComponent<DR_CrowdEngagement>().crowdEngagement >= 15.0f && TruckCouncilHasSpawned == false)
+        if (this.gameObject.GetComponent<GameManager>().CrowdSatisfaction >= 15.0f && TruckCouncilHasSpawned == false && WithinArea)
         // Change this variable to change the amount of crowd engagement that a player needs, to trigger the truck council to come out
         {
             TruckCouncilHasSpawned = true;
@@ -41,6 +45,7 @@ public class DR_TruckCouncil : MonoBehaviour
             WorkerTruckCouncilCanBeSpawned = false;
 
             WorkerTruckCouncil.SetActive(true);
+            //WorkerTruckCouncil.transform.position = TruckCouncilEngagedPosition.transform.position;
         }
     }
 

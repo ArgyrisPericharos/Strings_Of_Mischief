@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class DR_CrowdMemberAIMovement : MonoBehaviour
 {
+    public GameObject DR_GameManager;
     public GameObject CrowdMember;
+    public GameObject ConcertCrowdMeetingPoint;
+    public bool crowdMemberCanMoveFreely = true;
+    public bool crowdMemberIsInsideCollisionSphere = false;
+    public bool crowdMembersHaveBeenAttractedToConcert = false;
     public float crowdMemberRandomRotation;
     public float crowdMemberRandomMovementDistance;
     public float crowdMemberMovementDuration = 1.5f; // Change this variable to change how quickly the crowd member will get to their destination, every time they move
+    public float crowdMemberMovementDurationTowardsConcert = 1.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -18,14 +24,26 @@ public class DR_CrowdMemberAIMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (DR_GameManager.GetComponent<DR_GameManager>().ConcertHasBeenStarted == true && crowdMembersHaveBeenAttractedToConcert == false)
+        {
+            crowdMembersHaveBeenAttractedToConcert = true;
 
+            crowdMemberCanMoveFreely = false;
+
+            if (crowdMemberIsInsideCollisionSphere == true)
+            {
+                ChangeCrowdMemberRotationTowardsConcert();
+
+                crowdMemberCanMoveFreely = true;
+            }
+        }
     }
 
     public IEnumerator ChangeRotationAndMovePeriodically()
     {
-        while (true)
+        while (crowdMemberCanMoveFreely == true)
         {
-            yield return new WaitForSeconds(3f); // Change this variable to change how much time will pass, between every movement of the crowd member
+            yield return new WaitForSeconds(5.0f); // Change this variable to change how much time will pass, between every movement of the crowd member
 
             ChangeCrowdMemberRotation();
             yield return new WaitForSeconds(crowdMemberMovementDuration);
@@ -59,5 +77,46 @@ public class DR_CrowdMemberAIMovement : MonoBehaviour
         }
 
         CrowdMember.transform.position = crowdMemberEndPosition;
+    }
+
+    public void ChangeCrowdMemberRotationTowardsConcert()
+    {
+        CrowdMember.gameObject.transform.rotation = ConcertCrowdMeetingPoint.gameObject.transform.rotation;
+
+        crowdMemberMovementDurationTowardsConcert = Random.Range(2.0f, 4.0f); // Change these two floats to change how far the crowd member will go, every time they move
+
+        StartCoroutine(MoveCrowdMemberTowardsConcert(crowdMemberMovementDurationTowardsConcert));
+    }
+
+    public IEnumerator MoveCrowdMemberTowardsConcert(float crowdMemberMovementDurationTowardsConcert)
+    {
+        float startCrowdMemberMovementTime = Time.time;
+        Vector3 crowdMemberStartPosition = CrowdMember.transform.position;
+        Vector3 crowdMemberConcertCrowdMeetingPoint = ConcertCrowdMeetingPoint.transform.position;
+
+        while (Time.time - startCrowdMemberMovementTime < crowdMemberMovementDurationTowardsConcert)
+        {
+            float t = (Time.time - startCrowdMemberMovementTime) / crowdMemberMovementDurationTowardsConcert;
+            CrowdMember.transform.position = Vector3.Lerp(crowdMemberStartPosition, crowdMemberConcertCrowdMeetingPoint, t);
+            yield return null;
+        }
+
+        CrowdMember.transform.position = crowdMemberConcertCrowdMeetingPoint;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "ConcertCrowdAttractor")
+        {
+            crowdMemberIsInsideCollisionSphere = true;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "ConcertCrowdAttractor")
+        {
+            crowdMemberIsInsideCollisionSphere = false;
+        }
     }
 }

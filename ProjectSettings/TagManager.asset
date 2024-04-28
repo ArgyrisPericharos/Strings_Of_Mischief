@@ -6,6 +6,7 @@ TagManager:
   tags:
   - StrumTap
   - TapNoStrum
+  - ConcertCrowdAttractor
   layers:
   - Default
   - TransparentFX

@@ -9,6 +9,8 @@ public class DR_GameManager : MonoBehaviour
 
     public Text textMoney;
 
+    public bool ConcertHasBeenStarted = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,5 +21,10 @@ public class DR_GameManager : MonoBehaviour
     void Update()
     {
         textMoney.text = "Money  =  $ " + money.ToString("F2");
+
+        if (Input.GetKeyUp(KeyCode.R) == true)
+        {
+            ConcertHasBeenStarted = true;
+        }
     }
 }

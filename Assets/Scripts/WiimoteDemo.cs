@@ -86,7 +86,7 @@ public class WiimoteDemo : MonoBehaviour {
         }
         
         
-        model.a.enabled = wiimote.Button.a;
+        /*model.a.enabled = wiimote.Button.a;
         model.b.enabled = wiimote.Button.b;
         model.one.enabled = wiimote.Button.one;
         model.two.enabled = wiimote.Button.two;
@@ -97,7 +97,7 @@ public class WiimoteDemo : MonoBehaviour {
         model.plus.enabled = wiimote.Button.plus;
         model.minus.enabled = wiimote.Button.minus;
         model.home.enabled = wiimote.Button.home;
-
+        */
         if (wiimote.current_ext == ExtensionController.GUITAR)
         {
             GuitarData data = wiimote.Guitar;           
@@ -187,7 +187,7 @@ public class WiimoteDemo : MonoBehaviour {
                              
                             gamemanager.startsong = true;
                             gamemanager.AudioSource.SetActive(true);
-                            Band.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y, Player.transform.position.z - 1f);
+                            Band.gameObject.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y, Player.transform.position.z - 1f);
                             gamemanager.AudioSource.transform.position = Band.transform.position;
                                                  
                         }
@@ -259,7 +259,7 @@ public class WiimoteDemo : MonoBehaviour {
 
 
         if (wiimote.current_ext != ExtensionController.MOTIONPLUS)
-            model.rot.localRotation = initial_rotation;
+            //model.rot.localRotation = initial_rotation;
 
         if (ir_dots.Length < 4) return;
 

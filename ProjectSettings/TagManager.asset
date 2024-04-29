@@ -7,6 +7,9 @@ TagManager:
   - StrumTap
   - TapNoStrum
   - ConcertCrowdAttractor
+  - CrowdMember
+  - Arrows
+  - GeneralPublic
   layers:
   - Default
   - TransparentFX

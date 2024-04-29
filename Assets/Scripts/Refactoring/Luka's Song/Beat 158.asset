@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Beat 158
   m_EditorClassIdentifier: 
   TypeOfNotes: 2
-  TheObjectThatHitsThis: 0
+  TheObjectThatHitsThis: 3
   Timing: 117.05
   ColourIdentifier: {r: 0, g: 0, b: 0, a: 0}
   SpawnPozitionModifierZ: 1.5

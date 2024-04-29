@@ -19,7 +19,7 @@ public class ChartSystemManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Timer.TimeGoBy >= ChartNoteList[0].Timing) // needs a controling bollean
+        if (Timer.TimeGoBy >= ChartNoteList[0].Timing - 1f) // needs a controling bollean
         {
             Instantiate(TypeOfNoteList[ChartNoteList[0].TypeOfNotes], new Vector3(NoteObjectsList[ChartNoteList[0].TheObjectThatHitsThis].transform.position.x, NoteObjectsList[ChartNoteList[0].TheObjectThatHitsThis].transform.position.y, NoteObjectsList[ChartNoteList[0].TheObjectThatHitsThis].transform.position.z + ChartNoteList[0].SpawnPozitionModifierZ), Quaternion.identity).transform.parent = MainCamera.transform;
 

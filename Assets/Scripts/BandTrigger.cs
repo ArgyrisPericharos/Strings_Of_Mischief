@@ -19,11 +19,11 @@ public class BandTrigger : MonoBehaviour
     }
     public void OnTriggerStay(Collider other)
     {
-        Debug.Log("Somethinghasgonein" + other.gameObject.name);
+        //Debug.Log("Somethinghasgonein" + other.gameObject.name);
         //here we make an if statement with all the robbable actions, we turn on their respective bools that acitvate them Like the truck/manhole, shop and civilians
         if (other.gameObject.CompareTag("GeneralPublic"))
         {
-            Debug.Log("GeneralPublicHasGonein");
+            //Debug.Log("GeneralPublicHasGonein");
             other.gameObject.GetComponentInParent<LB_GenPublic>().BandOn = true;
             //generalpublic.GetComponent<LB_GenPublic>().BandOn = true;           
         }

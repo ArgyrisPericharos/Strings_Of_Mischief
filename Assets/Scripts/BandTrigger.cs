@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BandTrigger : MonoBehaviour
 {
-    //public GameObject generalpublic;
+    public GameManager Gamemanager;
     
     // Start is called before the first frame update
     void Start()
@@ -27,6 +27,14 @@ public class BandTrigger : MonoBehaviour
             other.gameObject.GetComponentInParent<LB_GenPublic>().BandOn = true;
             //generalpublic.GetComponent<LB_GenPublic>().BandOn = true;           
         }
+
+        if (other.gameObject.CompareTag("Manhole"))
+        {
+            Gamemanager.GetComponent<DR_TruckCouncil>().WithinArea = true;
+        }
+
+
+
 
         
     }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class BandTrigger : MonoBehaviour
 {
     //public GameObject generalpublic;
-    
+    public bool BandOn;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,19 +23,24 @@ public class BandTrigger : MonoBehaviour
         //here we make an if statement with all the robbable actions, we turn on their respective bools that acitvate them Like the truck/manhole, shop and civilians
         if (other.gameObject.CompareTag("GeneralPublic"))
         {
-            //Debug.Log("GeneralPublicHasGonein");
             other.gameObject.GetComponentInParent<LB_GenPublic>().BandOn = true;
-            //generalpublic.GetComponent<LB_GenPublic>().BandOn = true;           
+        }
+        if (other.gameObject.CompareTag("PublicFan"))
+        {
+            other.gameObject.GetComponentInParent<LB_GenFAn>().BandOn = true;
         }
 
-        
+
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("GeneralPublic"))
         {
             other.gameObject.GetComponentInParent<LB_GenPublic>().BandOn = false;
-            //generalpublic.GetComponent<LB_GenPublic>().BandOn = false;
+        }
+        if (other.gameObject.CompareTag("PublicFan"))
+        {
+            other.gameObject.GetComponentInParent<LB_GenFAn>().BandOn = false;
         }
     }
 }

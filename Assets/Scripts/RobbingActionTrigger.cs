@@ -21,10 +21,20 @@ public class RobbingActionTrigger : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+
+            this.gameObject.GetComponentInParent<DR_BasicROb>().PlayerIsInsideCrowdMember = true;
             if (Camera.GetComponent<WiimoteDemo>().MinusPressed)
             {
-                //addmoney
+               // PlayerIsInsideCrowdMember = true;
             }
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+
+            this.gameObject.GetComponentInParent<DR_BasicROb>().PlayerIsInsideCrowdMember = false;
         }
     }
 }

@@ -11,8 +11,9 @@ public class LB_GenPublic : MonoBehaviour
     public float Timer;
     NavMeshAgent agent;
     public bool BandOn;
-    public GameObject BandReal;
-    public bool DisableGoal;
+    public Transform Band;
+    public float speed = 1f;
+    
     
     
     // Start is called before the first frame update
@@ -35,23 +36,24 @@ public class LB_GenPublic : MonoBehaviour
             goal = ListOfTransforms[ListNumber];
             ListNumber = Random.Range(0, 19);
             Timer = 0;
-
+            agent.destination = goal.position;
         }
         else if (BandOn == true)
         {
-            goal.position = BandReal.transform.position;
-       }
-        /*else if (BandOn == true)
-        {
-            goal.position = agent.transform.position;
-        }*/
+            Timer = 1;
+            agent.destination = this.transform.position;
+            float singleStep = speed * Time.deltaTime;
+            Vector3 targetrotation = Band.position - transform.position;
+            Vector3 newDirection = Vector3.RotateTowards(transform.forward, targetrotation, singleStep, 0.0f);
 
+            
 
+            
+            transform.rotation = Quaternion.LookRotation(newDirection);
 
-
-
-      
+        }
         
-        agent.destination = goal.position;
+       
+        
     }
 }

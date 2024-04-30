@@ -36,7 +36,6 @@ public class DR_TruckCouncilRob : MonoBehaviour
             {
                 PlayerHasEnteredTruckCouncilRobbingArea = true;
             }
-            
         }
     }
 

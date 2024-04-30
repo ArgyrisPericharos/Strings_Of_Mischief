@@ -10,16 +10,18 @@ public class ChartSystemManager : MonoBehaviour
     public List<GameObject> NoteObjectsList;
     public GameManager Timer;
     public Camera MainCamera;
+    public float Timemodifier;
     // Start is called before the first frame update
     void Start()
     {
+        Timemodifier = 1f;
        // TypeOfNoteList.Add(new GameObject(NormalType, LightType, HoldType))
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Timer.TimeGoBy >= ChartNoteList[0].Timing - 1f) // needs a controling bollean
+        if (Timer.TimeGoBy >= ChartNoteList[0].Timing - Timemodifier) // needs a controling bollean
         {
             Instantiate(TypeOfNoteList[ChartNoteList[0].TypeOfNotes], new Vector3(NoteObjectsList[ChartNoteList[0].TheObjectThatHitsThis].transform.position.x, NoteObjectsList[ChartNoteList[0].TheObjectThatHitsThis].transform.position.y, NoteObjectsList[ChartNoteList[0].TheObjectThatHitsThis].transform.position.z + ChartNoteList[0].SpawnPozitionModifierZ), Quaternion.identity).transform.parent = MainCamera.transform;
 

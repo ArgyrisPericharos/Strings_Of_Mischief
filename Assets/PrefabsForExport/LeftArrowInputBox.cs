@@ -25,7 +25,7 @@ public class LeftArrowInputBox : MonoBehaviour
 
         if (other.gameObject.tag == "StrumTap")
         {
-            if (this.gameObject.GetComponent<WiimoteDemo>().StrumIsDown == true || this.gameObject.GetComponent<WiimoteDemo>().StrumIsUp == true)
+            if (this.gameObject.GetComponentInParent<WiimoteDemo>().StrumIsDown == true || this.gameObject.GetComponentInParent<WiimoteDemo>().StrumIsUp == true)
             {
                 Debug.Log("Hit");
                 Destroy(other.gameObject);

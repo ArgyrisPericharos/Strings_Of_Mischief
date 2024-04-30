@@ -22,20 +22,12 @@ public class DeathBox : MonoBehaviour
     {
         //Debug.Log("Iam" + other.gameObject.name);
 
-        if (other.gameObject.tag == "Arrows")
-        {
-            Destroy(other.gameObject);
-            
-            //gamemanagerscript.GetComponent<GameManager>().LostNotes += 1;
-            //gamemanagerscript.GetComponent<GameManager>().ListOfWordFields[0].GetComponent<TextMeshProUGUI>().color = Color.gray;
-            // gamemanagerscript.GetComponent<GameManager>().ListOfWordFields.RemoveAt(0);
-
-        }
+        
         if (other.gameObject.tag == "StrumTap")
         {
             Destroy(other.gameObject);
             gamemanager.CrowdSatisfaction -= 4;
-            gamemanager.NotesHit -= 1;
+            gamemanager.NotesMissed += 1;
             //gamemanagerscript.GetComponent<GameManager>().LostNotes += 1;
             //gamemanagerscript.GetComponent<GameManager>().ListOfWordFields[0].GetComponent<TextMeshProUGUI>().color = Color.gray;
             // gamemanagerscript.GetComponent<GameManager>().ListOfWordFields.RemoveAt(0);
@@ -46,7 +38,7 @@ public class DeathBox : MonoBehaviour
         {
             Destroy(other.gameObject);
             gamemanager.CrowdSatisfaction -= 2;
-            gamemanager.NotesHit -= 1;
+            gamemanager.NotesMissed += 1;
             //gamemanagerscript.GetComponent<GameManager>().LostNotes += 1;
             //gamemanagerscript.GetComponent<GameManager>().ListOfWordFields[0].GetComponent<TextMeshProUGUI>().color = Color.gray;
             // gamemanagerscript.GetComponent<GameManager>().ListOfWordFields.RemoveAt(0);

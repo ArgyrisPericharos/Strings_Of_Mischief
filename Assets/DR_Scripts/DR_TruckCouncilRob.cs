@@ -10,6 +10,7 @@ public class DR_TruckCouncilRob : MonoBehaviour
 
     public GameObject Camera;
 
+    public GameManager GameManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,12 +20,12 @@ public class DR_TruckCouncilRob : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (this.gameObject.GetComponent<DR_WorkerTruckCouncilThree>().TruckCouncilCanBeRobbed == true && PlayerHasEnteredTruckCouncilRobbingArea == true &&
-            PlayerHasRobbedTruckCouncil == false)
+        if (GameManager.gameObject.GetComponent<DR_WorkerTruckCouncilThree>().TruckCouncilCanBeRobbed == true && PlayerHasEnteredTruckCouncilRobbingArea == true &&
+            PlayerHasRobbedTruckCouncil == false && Camera.GetComponent<WiimoteDemo>().MinusPressed)
         {
             PlayerHasRobbedTruckCouncil = true;
 
-            this.gameObject.GetComponent<GameManager>().money += 200; // Change this variable to change how much money the player gains, when they rob the truck council
+            GameManager.gameObject.GetComponent<GameManager>().money += 200; // Change this variable to change how much money the player gains, when they rob the truck council
         }
     }
 
@@ -32,10 +33,8 @@ public class DR_TruckCouncilRob : MonoBehaviour
     {
         if (collider.gameObject.tag == "Player")
         {
-            if (Camera.GetComponent<WiimoteDemo>().MinusPressed)
-            {
-                PlayerHasEnteredTruckCouncilRobbingArea = true;
-            }
+            PlayerHasEnteredTruckCouncilRobbingArea = true;
+           
         }
     }
 

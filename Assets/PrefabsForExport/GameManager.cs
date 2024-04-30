@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     public bool startsong;
     public float TimeGoBy;
     public GameObject AudioSource; //audio source that has the clip
+    public GameObject Band;
+    public GameObject BandSpawnPoint;
     public List<AudioClip> ListOfSongs; // this is used to assign the correct clip to the audio source
 
     // song list, these songs will get assigned in the Note list in ChartSystemManager script.
@@ -33,6 +35,7 @@ public class GameManager : MonoBehaviour
 
     public bool InSpawnableArea; //this would be changeable based on where the player is at in the level (trigger box placements)
 
+    public TMP_Text SuccessRatetext;
 
     //public Text textMoney; //money UI text
     public float money = 0.0f; //money value
@@ -41,6 +44,7 @@ public class GameManager : MonoBehaviour
         CrowdSatisfaction = 40;
         MenuOn = false;
         AudioSource.SetActive(false);
+        SongOne = new List<NoteData> (this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList); 
    
         
     }
@@ -48,6 +52,26 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList.Count <= 1)
+        {
+            //turn cnavas on and do the maths.
+        }
+        if (this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList.Count <= 0)
+        {
+            GameObject[] gos = GameObject.FindGameObjectsWithTag("Delete"); 
+            foreach(GameObject go in gos)
+            {
+                Destroy(go);
+            }
+
+            startsong = false;
+            AudioSource.transform.position = Band.transform.position;
+            Band.transform.position = BandSpawnPoint.transform.position;
+            AudioSource.SetActive(false);
+            this.gameObject.GetComponent<ChartSystemManager>().Timemodifier = 1.33f;
+            this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList = new List<NoteData>(SongOne);
+        }
+
         // CrowdSatisfaction -= ;
         if (startsong == true)
         {
@@ -66,6 +90,9 @@ public class GameManager : MonoBehaviour
 
         CrowdBar.fillAmount = CrowdSatisfaction / 100f;
 
+        NoteSuccessrate = NotesHit / (NotesHit + NotesMissed) * 100;
+
+        SuccessRatetext.text = (NoteSuccessrate.ToString("F0") + "%");
         //textMoney.text = "Money  =  $ " + money.ToString("F2");
 
     }

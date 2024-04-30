@@ -7,9 +7,11 @@ TagManager:
   - StrumTap
   - TapNoStrum
   - ConcertCrowdAttractor
-  - Ground
-  - Arrows
   - CrowdMember
+  - Arrows
+  - GeneralPublic
+  - Manhole
+  - Delete
   layers:
   - Default
   - TransparentFX
@@ -17,8 +19,8 @@ TagManager:
   - Ground
   - Water
   - UI
-  - Target
-  - Obstruction
+  - 
+  - 
   - 
   - 
   - 

@@ -21,6 +21,7 @@ public class LB_BalconyRob : MonoBehaviour
     public GameObject RobTrigger;
     public float speed = 1f;
     public Transform Band;
+    public GameObject Balcon;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +36,7 @@ public class LB_BalconyRob : MonoBehaviour
         HandsUp.transform.LookAt(MainCamera.transform);
         
 
-        if (gameObject.GetComponent<LB_BalconeOn>().BalconyOn)
+        if (Balcon.gameObject.GetComponent<LB_BalconeOn>().BalconyOn)
         {
             if (RollForChance)
             {
@@ -78,7 +79,7 @@ public class LB_BalconyRob : MonoBehaviour
 
 
 
-        if (CrowdMemberIsDistracted == true && PlayerIsInsideCrowdMember == true && Input.GetKeyUp(KeyCode.Q))
+        if (CrowdMemberIsDistracted == true && PlayerIsInsideCrowdMember == true && MainCamera.GetComponent<WiimoteDemo>().MinusPressed)
         {
             GameManager.GetComponent<GameManager>().money += Random.Range(5, 25);
         }

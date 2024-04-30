@@ -19,6 +19,8 @@ public class DR_BasicROb : MonoBehaviour
     public GameObject HandsUp;
     public GameObject RobTrigger;
 
+    public bool Robbable;
+
 
     public bool RollForChance;
     // Start is called before the first frame update
@@ -26,6 +28,7 @@ public class DR_BasicROb : MonoBehaviour
     {
         ChanceOfGettingDistracted = Random.Range(0, 100);
         RollForChance = false;
+        Robbable = true;
     }
 
     // Update is called once per frame
@@ -69,13 +72,15 @@ public class DR_BasicROb : MonoBehaviour
         else if ( gameObject.GetComponent<LB_GenPublic>().BandOn!)
         {
             RollForChance = true;
+            Robbable = true;
         }
 
 
    
-        if (CrowdMemberIsDistracted == true && PlayerIsInsideCrowdMember == true && Input.GetKeyUp(KeyCode.Q))
+        if (CrowdMemberIsDistracted == true && PlayerIsInsideCrowdMember == true && MainCamera.GetComponent<WiimoteDemo>().MinusPressed && Robbable)
         {
             GameManager.GetComponent<GameManager>().money += Random.Range(5, 25);
+            Robbable = false;
         }
     }
 

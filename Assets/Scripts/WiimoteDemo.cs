@@ -500,7 +500,7 @@ public class WiimoteDemo : MonoBehaviour {
         
     }
     
-
+    /*
     void OnDrawGizmos()
     {
         if (wiimote == null) return;
@@ -508,6 +508,7 @@ public class WiimoteDemo : MonoBehaviour {
         Gizmos.color = Color.red;
         Gizmos.DrawLine(model.rot.position, model.rot.position + model.rot.rotation*GetAccelVector()*2);
     }
+    */
 
     private Vector3 GetAccelVector()
     {

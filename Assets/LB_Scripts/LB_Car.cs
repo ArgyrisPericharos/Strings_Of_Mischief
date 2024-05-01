@@ -6,6 +6,7 @@ public class LB_Car : MonoBehaviour
 {
     NavMeshAgent car;
     public Transform Node;
+    public List<Transform> ListOfNodes;
     //public Transform CarCar;
 
     // Start is called before the first frame update

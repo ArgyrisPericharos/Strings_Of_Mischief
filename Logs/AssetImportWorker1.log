@@ -1,0 +1,988 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 7381 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Unity Projects/Strings_Of_MischiefMainBranch
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64655
+Successfully changed project path to: C:/Unity Projects/Strings_Of_MischiefMainBranch
+C:/Unity Projects/Strings_Of_MischiefMainBranch
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7764] Host "[IP] 10.249.14.245 [Port] 0 [Flags] 2 [Guid] 3968337648 [EditorId] 3968337648 [Version] 1048832 [Id] WindowsEditor(7,Argybase) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7764] Host "[IP] 10.249.14.245 [Port] 0 [Flags] 2 [Guid] 3968337648 [EditorId] 3968337648 [Version] 1048832 [Id] WindowsEditor(7,Argybase) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 25.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity Projects/Strings_Of_MischiefMainBranch/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.4680
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013012 seconds.
+- Loaded All Assemblies, in  0.588 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 566 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.099 seconds
+Domain Reload Profiling: 1685ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (276ms)
+		LoadAssemblies (129ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (265ms)
+				TypeCache.ScanAssembly (249ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1100ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (988ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (740ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\Strings_Of_MischiefMainBranch\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\Strings_Of_MischiefMainBranch\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.389 seconds
+Refreshing native plugins compatible for Editor in 26.71 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.022 seconds
+Domain Reload Profiling: 2404ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (1052ms)
+		LoadAssemblies (688ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (472ms)
+			TypeCache.Refresh (421ms)
+				TypeCache.ScanAssembly (394ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1022ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (792ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (458ms)
+			ProcessInitializeOnLoadMethodAttributes (186ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 14.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4751 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 91 unused Assets / (203.7 KB). Loaded Objects now: 5206.
+Memory consumption went from 178.7 MB to 178.5 MB.
+Total: 9.167500 ms (FindLiveObjects: 0.465400 ms CreateObjectMapping: 0.198100 ms MarkObjects: 7.803100 ms  DeleteObjects: 0.698700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 220833.539082 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(f74e271aa0a19d748a0e4f22a5cdb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(f74e271aa0a19d748a0e4f22a5cdb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a28f2b95ad515ef4209f43b426fed61') in 0.023713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Back Arrow.png
+  artifactKey: Guid(6e20785e8c4f48246aa6cdde98a1f2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Back Arrow.png using Guid(6e20785e8c4f48246aa6cdde98a1f2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f2a046a4c61156e2550f71b007a45e') in 0.092494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 124.644848 seconds.
+  path: Assets/PrefabsForExport/DeathBoxSquare (1).prefab
+  artifactKey: Guid(9c75c3417c472094bb07304125805665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsForExport/DeathBoxSquare (1).prefab using Guid(9c75c3417c472094bb07304125805665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00593156ebf4aec092ec2adec63faf03') in 0.155493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PrefabsForExport/Game_Arrow.png
+  artifactKey: Guid(42d9597574ffefd4f8adb240e9f0823b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrefabsForExport/Game_Arrow.png using Guid(42d9597574ffefd4f8adb240e9f0823b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469b67a428369952826af19aacfd2bde') in 0.050369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.780501 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 2.asset
+  artifactKey: Guid(fd9f72ff68298ce4d9e3805cf29cb0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 2.asset using Guid(fd9f72ff68298ce4d9e3805cf29cb0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2dafdf61ba09461b1b209c30169e0f1') in 0.002812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 5.asset
+  artifactKey: Guid(385c69a37b1a55841827e1e5382a9d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 5.asset using Guid(385c69a37b1a55841827e1e5382a9d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f22f7a42ac2daa185407ff85a862f0') in 0.001440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 7.asset
+  artifactKey: Guid(585910e6e08601242b665819e94313e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 7.asset using Guid(585910e6e08601242b665819e94313e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179183266d2e473841d16622c59e3929') in 0.001904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 9.asset
+  artifactKey: Guid(61259f38b2b99454abf2c65cdd91927c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 9.asset using Guid(61259f38b2b99454abf2c65cdd91927c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b4ad434aadd6dd82ba1b9a1c36392a') in 0.001278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 11.asset
+  artifactKey: Guid(a2ae1e38e3b54664d8283b08befc4fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 11.asset using Guid(a2ae1e38e3b54664d8283b08befc4fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0684310475f4032fa4bfa5fb339c45') in 0.001413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 15.asset
+  artifactKey: Guid(f8d82355f1f95c3448ee2ebae2b7e097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 15.asset using Guid(f8d82355f1f95c3448ee2ebae2b7e097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2531c211ca307f2abdd46631b9f17fa') in 0.001370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 14.asset
+  artifactKey: Guid(dc5e184dcfd8ee140aab1603292eb0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 14.asset using Guid(dc5e184dcfd8ee140aab1603292eb0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8f713995f422f696898cc1ceaa1c2e') in 0.001826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 19.asset
+  artifactKey: Guid(2d37833ad24a2c84eaf0428945a913fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 19.asset using Guid(2d37833ad24a2c84eaf0428945a913fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7949100d6fb0963735f2f706e9896e14') in 0.001908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.056594 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 22.asset
+  artifactKey: Guid(102c76ff72cb62d4b84065dc08e61409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 22.asset using Guid(102c76ff72cb62d4b84065dc08e61409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab6761f678790ec4e0a1c513d57a3c0') in 0.002940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 17.asset
+  artifactKey: Guid(3d4265fa26adb0746955079bf1f6f12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 17.asset using Guid(3d4265fa26adb0746955079bf1f6f12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171fe4b6b64cb2f09ab938a03acff94e') in 0.015658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 26.asset
+  artifactKey: Guid(0f6ec557496b3404ba6b0f89e7c7cd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 26.asset using Guid(0f6ec557496b3404ba6b0f89e7c7cd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0f03ca249fd79330a9ba06463d4d6d') in 0.002565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 27.asset
+  artifactKey: Guid(5d41fa3a3e76a01429c258f3449864d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 27.asset using Guid(5d41fa3a3e76a01429c258f3449864d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ff9103baa48e2f4b8fe5f0b2b21fed') in 0.002124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 30.asset
+  artifactKey: Guid(d3204be7a28e6f64db67650a2b4ad986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 30.asset using Guid(d3204be7a28e6f64db67650a2b4ad986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c574a64272e1f226f69694c08dc20ca7') in 0.003091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 32.asset
+  artifactKey: Guid(56cd2f644320d1445811fc310ad35b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 32.asset using Guid(56cd2f644320d1445811fc310ad35b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aca12dad0a1d7ac60961525635d60c1') in 0.001669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 31.asset
+  artifactKey: Guid(7f0ed851a34c22c48898e9840cc14926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 31.asset using Guid(7f0ed851a34c22c48898e9840cc14926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d13928c07b969f5017b9070fa42e9d4') in 0.002188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 36.asset
+  artifactKey: Guid(40028765561c1b842b3ef21dcc0676dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 36.asset using Guid(40028765561c1b842b3ef21dcc0676dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c0dee6552d7a0a6b31d993684f38ce') in 0.002029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 24.asset
+  artifactKey: Guid(98edbb076d0d735408ac7d282799ca8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 24.asset using Guid(98edbb076d0d735408ac7d282799ca8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463a5c40a6ca7392abe46617361d2595') in 0.005204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 42.asset
+  artifactKey: Guid(c8540614c0b602c4899999f69f31d8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 42.asset using Guid(c8540614c0b602c4899999f69f31d8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf1165c470867111a62c3a9a9f81479') in 0.002110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 40.asset
+  artifactKey: Guid(392307780a49374439e6ea17fb626838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 40.asset using Guid(392307780a49374439e6ea17fb626838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78d76d95ba6150917aa41bfa57f9d72') in 0.001948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 41.asset
+  artifactKey: Guid(89606b2fb0b531a47a89219c2c471478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 41.asset using Guid(89606b2fb0b531a47a89219c2c471478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070f73727ac53b81257d1f11f28b0892') in 0.001563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 43.asset
+  artifactKey: Guid(d4e3999325680e04dab1c93073bfbe9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 43.asset using Guid(d4e3999325680e04dab1c93073bfbe9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78fc681aab2a0e5de4a63e0905bcd20') in 0.002222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 50.asset
+  artifactKey: Guid(b8bc8bd98893eb248868b053be8b5f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 50.asset using Guid(b8bc8bd98893eb248868b053be8b5f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5495ca3683dc603bb8e514a095250a3') in 0.001539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 52.asset
+  artifactKey: Guid(0bc3109b9d49a704b9763424a723f693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 52.asset using Guid(0bc3109b9d49a704b9763424a723f693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951756771339dae39e46931d486ef277') in 0.002288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 54.asset
+  artifactKey: Guid(d4130608b245c3144857b023f9f1ef56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 54.asset using Guid(d4130608b245c3144857b023f9f1ef56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcd5f50f422472286f81df55cc89586') in 0.002205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 55.asset
+  artifactKey: Guid(1791922ec4132a0478a96c647f24b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 55.asset using Guid(1791922ec4132a0478a96c647f24b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6acfd9020d185ed02e84f74fcd68f3') in 0.001603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 57.asset
+  artifactKey: Guid(1b29b7364aa09c74ea901bb92c857b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 57.asset using Guid(1b29b7364aa09c74ea901bb92c857b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816e816ab7aee8f77b541c2485ecbd64') in 0.001829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 59.asset
+  artifactKey: Guid(3cef0aee7988ee44cbe05e1049372631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 59.asset using Guid(3cef0aee7988ee44cbe05e1049372631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab991e915a2d3ee25b95d6d9924b03b') in 0.001475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 39.asset
+  artifactKey: Guid(a7f587407a159e3488836bb0647f7785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 39.asset using Guid(a7f587407a159e3488836bb0647f7785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7358f712b81f815fc185967730d49f84') in 0.001416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 61.asset
+  artifactKey: Guid(26301ab09ab89ab4aaa4d3cdc88134e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 61.asset using Guid(26301ab09ab89ab4aaa4d3cdc88134e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb459c6277fc731774f45befcbeecb7') in 0.001592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 63.asset
+  artifactKey: Guid(038c2d2e4494aa948b2b6e545dd20251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 63.asset using Guid(038c2d2e4494aa948b2b6e545dd20251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ab87e8250d7f869b66acd2517d0315') in 0.001910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 65.asset
+  artifactKey: Guid(2b940a16a292ede40939f387b7e4b600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 65.asset using Guid(2b940a16a292ede40939f387b7e4b600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4596c763c6e5750f1985111812611ef') in 0.001847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 68.asset
+  artifactKey: Guid(d8a7e1dc10d8dca48a7a18435bfec078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 68.asset using Guid(d8a7e1dc10d8dca48a7a18435bfec078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1805639d1ff7f4d322805e45603c53f6') in 0.001637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 66.asset
+  artifactKey: Guid(567ca1ef757cdde44972e14e33a57549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 66.asset using Guid(567ca1ef757cdde44972e14e33a57549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1aed07452767818b7b86b81f8526f33') in 0.002118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.550228 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 71.asset
+  artifactKey: Guid(497388bd16e9a274da46c1bf410b3e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 71.asset using Guid(497388bd16e9a274da46c1bf410b3e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee498fab7f342923250302c9e4bcda50') in 0.001650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000928 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 73.asset
+  artifactKey: Guid(0beafa61c273a2043a95b8d13980fc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 73.asset using Guid(0beafa61c273a2043a95b8d13980fc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8d6ca8b334e0a8086f515aa4a052cc') in 0.001368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 74.asset
+  artifactKey: Guid(3f178c90769c58f41baa22e71db077a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 74.asset using Guid(3f178c90769c58f41baa22e71db077a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c386075b7a020536df75caf6ff1d4712') in 0.001270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 77.asset
+  artifactKey: Guid(47bfe53743d89b84e824119c35b2ffa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 77.asset using Guid(47bfe53743d89b84e824119c35b2ffa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e470f38648d07584a3311c85fbc4438a') in 0.001468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 82.asset
+  artifactKey: Guid(6b32e4cb5347edb4abceed6d71b1c430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 82.asset using Guid(6b32e4cb5347edb4abceed6d71b1c430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb1bd5b2afbd1173759beb7b610e76a') in 0.001465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 79.asset
+  artifactKey: Guid(1afd2b5164c1b904b86d7a96500952c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 79.asset using Guid(1afd2b5164c1b904b86d7a96500952c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d13675e107165b29d72d0905a8caf44') in 0.001406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 85.asset
+  artifactKey: Guid(1d6c83aaf30e5ab43af5b2c7a87001bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 85.asset using Guid(1d6c83aaf30e5ab43af5b2c7a87001bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c8e081dcfc36e19ed962d32643681f') in 0.001828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 78.asset
+  artifactKey: Guid(b8a629a526045b543a0ce35e71ea8dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 78.asset using Guid(b8a629a526045b543a0ce35e71ea8dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888afb1140192f300f25e0395d6a1d06') in 0.001864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.020014 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 87.asset
+  artifactKey: Guid(bda8b0b101f58a54da00dd4e258c9726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 87.asset using Guid(bda8b0b101f58a54da00dd4e258c9726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70866548622d17ecf7a631499d94b0d9') in 0.001466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 90.asset
+  artifactKey: Guid(bf1113f747f1b26428780eb615b5d7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 90.asset using Guid(bf1113f747f1b26428780eb615b5d7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a17f97e55765830b02cdfaba31547e') in 0.001388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 91.asset
+  artifactKey: Guid(62b21f54b7ca0064f95f4b34c70eda52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 91.asset using Guid(62b21f54b7ca0064f95f4b34c70eda52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd05735ef331d4888f5e4e2c2d93cda') in 0.001846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 92.asset
+  artifactKey: Guid(51ef34f13f7b05c4b8df0105d90203e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 92.asset using Guid(51ef34f13f7b05c4b8df0105d90203e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31501829b36bc009aa4a731c07ec4bb') in 0.001942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 95.asset
+  artifactKey: Guid(dd84b2253b051124e8bf2c911eea5889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 95.asset using Guid(dd84b2253b051124e8bf2c911eea5889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30c42a0ad47b7d0dd5a456badd56591') in 0.001832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 98.asset
+  artifactKey: Guid(c84382d072ea4ac42ad1fd05a0d0d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 98.asset using Guid(c84382d072ea4ac42ad1fd05a0d0d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a7af3c033ce4c107e9be504a3bb235') in 0.001876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 100.asset
+  artifactKey: Guid(d48cdd49b1069b74a8bf1472b93ddd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 100.asset using Guid(d48cdd49b1069b74a8bf1472b93ddd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b762cb81abf772fcb2aac9d491c9ffe6') in 0.001383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 101.asset
+  artifactKey: Guid(fcc649b0302950e4e939b1bc7a467d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 101.asset using Guid(fcc649b0302950e4e939b1bc7a467d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8685f505b7f0520470569131577f7b') in 0.001725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 102.asset
+  artifactKey: Guid(713860832b555db498d1304560e4659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 102.asset using Guid(713860832b555db498d1304560e4659e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9834e5fc720156a88e4955438479e4') in 0.001895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 104.asset
+  artifactKey: Guid(021e997aea1ee254e8a637a4678d8185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 104.asset using Guid(021e997aea1ee254e8a637a4678d8185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec8c5887b5e534c14196c519315d1d0') in 0.001241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 107.asset
+  artifactKey: Guid(3ca63a86660f1354086fdceb0f9eab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 107.asset using Guid(3ca63a86660f1354086fdceb0f9eab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680438885e0ad4b93d8adf0fcd709b33') in 0.001466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 109.asset
+  artifactKey: Guid(508e09253d6717143a4d176564fc4282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 109.asset using Guid(508e09253d6717143a4d176564fc4282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035c98c22292963b912e37dbc2183e72') in 0.001480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 110.asset
+  artifactKey: Guid(dca312472921c0c49bc02e10e90290df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 110.asset using Guid(dca312472921c0c49bc02e10e90290df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3296c8bda276a7bcbb4c14c274d47209') in 0.001943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 113.asset
+  artifactKey: Guid(ae757f125ad35504388293ba569bd155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 113.asset using Guid(ae757f125ad35504388293ba569bd155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3e34e7e95f05a00884d44b5d36d9f1') in 0.001358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 114.asset
+  artifactKey: Guid(80fbc8090c2b014438dc6b03e02fc530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 114.asset using Guid(80fbc8090c2b014438dc6b03e02fc530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503109d95188353873b3b8873749f82a') in 0.001336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 116.asset
+  artifactKey: Guid(6a51c56ba51465c4180e904bf747ef64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 116.asset using Guid(6a51c56ba51465c4180e904bf747ef64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b5e1d1f7fb2bb1d3bc1302156347fc') in 0.001449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 117.asset
+  artifactKey: Guid(a90c1ef2faeca7c4188d6bb7b559bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 117.asset using Guid(a90c1ef2faeca7c4188d6bb7b559bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3015b3acfcc985e9a6fa7d809daa29df') in 0.001729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 120.asset
+  artifactKey: Guid(881e3a33485e89444a21f35ca6cfa726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 120.asset using Guid(881e3a33485e89444a21f35ca6cfa726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e17b03a0ebb7f629dc15987497ab2b') in 0.001661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 121.asset
+  artifactKey: Guid(cc2a751bcd7a34a41be96834173338e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 121.asset using Guid(cc2a751bcd7a34a41be96834173338e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e13b61fa0932500e6dc467793c4b1ae') in 0.001496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 125.asset
+  artifactKey: Guid(df17a4be70f4565489c3f3979e6d37d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 125.asset using Guid(df17a4be70f4565489c3f3979e6d37d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53232f1aa98f57476d3949bd2304084') in 0.002119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 128.asset
+  artifactKey: Guid(eb6c8200c3cf1a649bf88fd6001ed7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 128.asset using Guid(eb6c8200c3cf1a649bf88fd6001ed7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036ac9afb7b2b1cfe67ca817840b278c') in 0.001396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 129.asset
+  artifactKey: Guid(83453725de2879a4390d21adaea69a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 129.asset using Guid(83453725de2879a4390d21adaea69a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980f784080c8159b4d39e9fc39d13ada') in 0.001236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 126.asset
+  artifactKey: Guid(f2132a7b55f66a64b873feedc9963418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 126.asset using Guid(f2132a7b55f66a64b873feedc9963418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3941c1ea3cd3b2d11cd082e953d6c358') in 0.001365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 133.asset
+  artifactKey: Guid(6f5caf3f2dba1c94faf85ad9e9bc53f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 133.asset using Guid(6f5caf3f2dba1c94faf85ad9e9bc53f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687b6e01d9b8b77da9280fb4ca07ce4e') in 0.001417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 135.asset
+  artifactKey: Guid(89151673ea0da7f41b91e4335c1a38aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 135.asset using Guid(89151673ea0da7f41b91e4335c1a38aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeec5effac457ce05844baf738ac2b75') in 0.002009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 97.asset
+  artifactKey: Guid(b298f63282e513b438de3f8d8664d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 97.asset using Guid(b298f63282e513b438de3f8d8664d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349a2610a7d504ffe4549c817a6da35e') in 0.001509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.039229 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 137.asset
+  artifactKey: Guid(af72b7515c8b8d34c82499619915cdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 137.asset using Guid(af72b7515c8b8d34c82499619915cdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61037ae6ff0f0a143c8a4b1fcdb25bb') in 0.001736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 140.asset
+  artifactKey: Guid(92f4de0e4b5140147889b216d4311eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 140.asset using Guid(92f4de0e4b5140147889b216d4311eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84958aded5686bb7e22c21f138aac4ae') in 0.002904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 143.asset
+  artifactKey: Guid(158a5aa5688a4a2479f38a93639f77f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 143.asset using Guid(158a5aa5688a4a2479f38a93639f77f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d56028b982a5f9bdaa8bfaf919e044d') in 0.001406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 145.asset
+  artifactKey: Guid(1ad7f047ff6e2e54ba77ff842b018b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 145.asset using Guid(1ad7f047ff6e2e54ba77ff842b018b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3f98cd7a1adbbc976cf0c17baa55a7') in 0.001976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 141.asset
+  artifactKey: Guid(6823c121553c5e948a5a8c80e99b5c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 141.asset using Guid(6823c121553c5e948a5a8c80e99b5c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e857c2b1789bbc0f6ae2fbc928b0356b') in 0.001491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 148.asset
+  artifactKey: Guid(c0591bfe9b9e8f941a00b631b86891ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 148.asset using Guid(c0591bfe9b9e8f941a00b631b86891ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f075280f69fd37e28a13a07494048df3') in 0.002020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 150.asset
+  artifactKey: Guid(507c1af9d49d3044680824fc53abc30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 150.asset using Guid(507c1af9d49d3044680824fc53abc30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fdab17f2e861ad8a7ea6539b8e7fd3') in 0.001689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 151.asset
+  artifactKey: Guid(f4f7b498e5e66d444a55ca88d7f61ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 151.asset using Guid(f4f7b498e5e66d444a55ca88d7f61ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b666d40dd39a41763caf38f3e3539b') in 0.001976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.098922 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 154.asset
+  artifactKey: Guid(8a3a2abf785e3944883ab12f276f8cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 154.asset using Guid(8a3a2abf785e3944883ab12f276f8cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3b8fa8117d3b0b211d195d8284923c') in 0.001638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 157.asset
+  artifactKey: Guid(b4a1fa689285f604b8a7aab973b2417c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 157.asset using Guid(b4a1fa689285f604b8a7aab973b2417c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9b19cbc81f4615a3213596c4205c14') in 0.001906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 158.asset
+  artifactKey: Guid(8e692708ff2b28a40b478953ab96e36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 158.asset using Guid(8e692708ff2b28a40b478953ab96e36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7d8217b932ae57d5c97af3a765b594') in 0.001648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 162.asset
+  artifactKey: Guid(cb986d065de383d4693766c9dd17b5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 162.asset using Guid(cb986d065de383d4693766c9dd17b5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664efe9c8c734cc984b1368c8f06a4af') in 0.001656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 161.asset
+  artifactKey: Guid(5b91b7adf5d682f4683488064faec5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 161.asset using Guid(5b91b7adf5d682f4683488064faec5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076b4841b788d55da1dfe270dfa1ff74') in 0.001961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 164.asset
+  artifactKey: Guid(47b992e9d3ca44146b05da61dda46e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 164.asset using Guid(47b992e9d3ca44146b05da61dda46e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206f48ba5215c0724045bd95e7d2c9d3') in 0.001385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 165.asset
+  artifactKey: Guid(64960e3dfd97ec940babe28b64d7fa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 165.asset using Guid(64960e3dfd97ec940babe28b64d7fa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ceca892ec4dfa4221933ea3d51bd7ab') in 0.001830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 168.asset
+  artifactKey: Guid(23041d170d3eb974c8e43d1b4b190ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 168.asset using Guid(23041d170d3eb974c8e43d1b4b190ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba43ef547c4a96f2c3a0cae1ea963e4') in 0.001259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 169.asset
+  artifactKey: Guid(51d15101cadd28541aaaca545565e80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 169.asset using Guid(51d15101cadd28541aaaca545565e80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36256b23c42e84261805f60fe8ab54f') in 0.001525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 171.asset
+  artifactKey: Guid(6336999a6ce2c6e48bec7499fdd992f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 171.asset using Guid(6336999a6ce2c6e48bec7499fdd992f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b623885a8d83c5bd94c155fbb5d7eb') in 0.001918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 173.asset
+  artifactKey: Guid(dae572b9569a796419b0abec983cd6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 173.asset using Guid(dae572b9569a796419b0abec983cd6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a987bbbbbb4bc65cd168fe683df50e') in 0.001559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 175.asset
+  artifactKey: Guid(6417c7273eda20047998b458fb148701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 175.asset using Guid(6417c7273eda20047998b458fb148701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd8a01ee339659d4139635ab6bd99c8') in 0.001233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Scripts/Refactoring/Luka's Song/Beat 177.asset
+  artifactKey: Guid(fbf6fb9d486f48641b2196e34b975797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Luka's Song/Beat 177.asset using Guid(fbf6fb9d486f48641b2196e34b975797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287c3d5338249a16fa738fe37daa8e94') in 0.001322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\Strings_Of_MischiefMainBranch\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\Strings_Of_MischiefMainBranch\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.176 seconds
+Refreshing native plugins compatible for Editor in 14.13 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.133 seconds
+Domain Reload Profiling: 3305ms
+	BeginReloadAssembly (287ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (133ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (785ms)
+		LoadAssemblies (457ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (408ms)
+			TypeCache.Refresh (400ms)
+				TypeCache.ScanAssembly (346ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2134ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (762ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (238ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 20.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4708 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (160.8 KB). Loaded Objects now: 5232.
+Memory consumption went from 168.8 MB to 168.6 MB.
+Total: 15.135500 ms (FindLiveObjects: 0.638200 ms CreateObjectMapping: 0.394600 ms MarkObjects: 13.607800 ms  DeleteObjects: 0.492900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

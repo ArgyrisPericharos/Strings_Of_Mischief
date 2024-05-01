@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
     public bool InSpawnableArea; //this would be changeable based on where the player is at in the level (trigger box placements)
 
     public TMP_Text SuccessRatetext;
+    public GameObject Canvas;
 
     //public Text textMoney; //money UI text
     public float money = 0.0f; //money value
@@ -54,7 +55,11 @@ public class GameManager : MonoBehaviour
     {
         if (this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList.Count <= 1)
         {
-            //turn cnavas on and do the maths.
+            Canvas.SetActive(true);
+        }
+        else
+        {
+            Canvas.SetActive(false);
         }
         if (this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList.Count <= 0)
         {

@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CrowdMember
+  - WeddingMember
+  - GeneralPublic
+  - PublicFan
+  - ConcertCrowdAttractor
+  - CarFirst
+  - StrumTap
+  - Barrier
+  - TapNoStrum
+  - 'Undesirables '
+  - BalconyMember
+  - Delete
+  - Manhole
   layers:
   - Default
   - TransparentFX

@@ -6,6 +6,7 @@ public class BandTrigger : MonoBehaviour
 {
     //public GameObject generalpublic;
     public bool BandOn;
+    public GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +34,10 @@ public class BandTrigger : MonoBehaviour
         {
             other.gameObject.GetComponentInParent<LB_Wedding>().BandOn = true;
         }
+        if (other.gameObject.CompareTag("Manhole"))
+        {
+            gameManager.GetComponent<DR_TruckCouncil>().WithinArea = true;
+        }
 
 
     }
@@ -49,6 +54,10 @@ public class BandTrigger : MonoBehaviour
         if (other.gameObject.CompareTag("WeddingMember"))
         {
             other.gameObject.GetComponentInParent<LB_Wedding>().BandOn = false;
+        }
+        if (other.gameObject.CompareTag("Manhole"))
+        {
+            gameManager.GetComponent<DR_TruckCouncil>().WithinArea = false;
         }
     }
 }

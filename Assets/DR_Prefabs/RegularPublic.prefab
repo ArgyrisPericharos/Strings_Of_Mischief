@@ -9,10 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5706780542951821601}
-  - component: {fileID: 3308442168645014473}
-  - component: {fileID: 3976394029132099466}
-  - component: {fileID: 6413393317750131173}
-  - component: {fileID: 7296363663570428631}
+  - component: {fileID: 1854280910104330795}
+  - component: {fileID: 8101639311582389227}
   m_Layer: 3
   m_Name: RegularPublic
   m_TagString: GeneralPublic
@@ -36,67 +34,9 @@ Transform:
   - {fileID: 7612216350654860700}
   - {fileID: 5429483967211220166}
   m_Father: {fileID: 0}
-  m_RootOrder: 95
+  m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &3308442168645014473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1274888068131850912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78ebfe85bfab56546929cc2970cd10ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HandsUp: {fileID: 8621435819693633784}
-  RobTrigger: {fileID: 5510502255918760532}
-  RobableC: 0
-  MainCamera: {fileID: 0}
-  ChanceOfDistracted: 0
-  RollForChance: 0
-  ActivateCoroutines: 0
---- !u!114 &3976394029132099466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1274888068131850912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b07f915bb03bc564b8035b3e367a15ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goal: {fileID: 0}
-  ListOfTransforms:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  ListNumber: 0
-  Timer: 0
-  BandOn: 0
-  BandReal: {fileID: 0}
-  DisableGoal: 0
---- !u!195 &6413393317750131173
+--- !u!195 &1854280910104330795
 NavMeshAgent:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,7 +58,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &7296363663570428631
+--- !u!114 &8101639311582389227
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -184,7 +124,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5292193892615556601}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0.16, z: 0.30000308}
+  m_LocalPosition: {x: 0, y: -0.036, z: 0.30000308}
   m_LocalScale: {x: 0.20000002, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -293,7 +233,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5510502255918760532}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: -3.52, y: 0.058, z: -1.65}
+  m_LocalPosition: {x: -3.52, y: -0.389, z: -1.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -677,7 +617,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7921881504653069612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.007, z: 0}
+  m_LocalPosition: {x: 0, y: 0.961, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -783,7 +723,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8621435819693633784}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: -0.013, y: 2.211, z: 0}
+  m_LocalPosition: {x: -0.013, y: 2.823, z: 0}
   m_LocalScale: {x: 0.07, y: 0.07, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -3,20 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - StrumTap
-  - TapNoStrum
-  - ConcertCrowdAttractor
-  - CrowdMember
-  - Arrows
-  - GeneralPublic
-  - Manhole
-  - Delete
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ground
+  - 
   - Water
   - UI
   - 

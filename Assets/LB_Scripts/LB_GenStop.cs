@@ -16,20 +16,5 @@ public class LB_GenStop : MonoBehaviour
     {
         
     }
-    public void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("GeneralPublic"))
-        {
-            other.gameObject.GetComponentInParent<LB_GenPublic>().DisableGoal = true;
-
-        }
-    }
-    /*public void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.CompareTag("GeneralPublic"))
-        {
-            other.gameObject.GetComponentInParent<LB_GenPublic>().DisableGoal = false;
-
-        }
-    }*/
+    
 }

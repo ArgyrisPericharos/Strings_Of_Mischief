@@ -29,6 +29,10 @@ public class BandTrigger : MonoBehaviour
         {
             other.gameObject.GetComponentInParent<LB_GenFAn>().BandOn = true;
         }
+        if (other.gameObject.CompareTag("WeddingMember"))
+        {
+            other.gameObject.GetComponentInParent<LB_Wedding>().BandOn = true;
+        }
 
 
     }
@@ -41,6 +45,10 @@ public class BandTrigger : MonoBehaviour
         if (other.gameObject.CompareTag("PublicFan"))
         {
             other.gameObject.GetComponentInParent<LB_GenFAn>().BandOn = false;
+        }
+        if (other.gameObject.CompareTag("WeddingMember"))
+        {
+            other.gameObject.GetComponentInParent<LB_Wedding>().BandOn = false;
         }
     }
 }

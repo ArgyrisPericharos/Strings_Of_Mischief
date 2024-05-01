@@ -19,19 +19,16 @@ public class LB_RobBal : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.CompareTag("Player"))
         {
 
             this.gameObject.GetComponentInParent<LB_BalconyRob>().PlayerIsInsideCrowdMember = true;
-            if (Camera.GetComponent<WiimoteDemo>().MinusPressed)
-            {
-                // PlayerIsInsideCrowdMember = true;
-            }
+          
         }
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.CompareTag("Player"))
         {
 
             this.gameObject.GetComponentInParent<LB_BalconyRob>().PlayerIsInsideCrowdMember = false;

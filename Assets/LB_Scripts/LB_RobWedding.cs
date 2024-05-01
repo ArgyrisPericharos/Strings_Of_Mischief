@@ -22,10 +22,7 @@ public class LB_RobWedding : MonoBehaviour
         {
 
             this.gameObject.GetComponentInParent<LB_Wedding>().PlayerInside = true;
-            if (Camera.GetComponent<WiimoteDemo>().MinusPressed)
-            {
-                // PlayerIsInsideCrowdMember = true;
-            }
+           
         }
     }
     private void OnTriggerExit(Collider other)

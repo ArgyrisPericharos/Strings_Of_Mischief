@@ -27,7 +27,7 @@ public class LB_Wedding : MonoBehaviour
         original = this.transform.position;
         chanceofdistraction = Random.Range(0, 100);
         agent = GetComponent<NavMeshAgent>();
-        Robbable = false;
+        Robbable = true;
 
     }
 
@@ -44,7 +44,7 @@ public class LB_Wedding : MonoBehaviour
             if (GameManager.CrowdSatisfaction >= 50 && chanceofdistraction >= 60) 
             
             {
-                Robbable = true;
+                
                 isDistracted=true;
                 agent.destination = Target.position;
                 if (isDistracted)
@@ -67,6 +67,7 @@ public class LB_Wedding : MonoBehaviour
             isDistracted = false;
             HandsUp.SetActive(false);
             RobTrigger.SetActive(false);
+            Robbable = true;
         }
         if (isDistracted == true && PlayerInside == true && Camera.GetComponent<WiimoteDemo>().MinusPressed && Robbable)
         {

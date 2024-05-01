@@ -22,11 +22,13 @@ public class LB_BalconyRob : MonoBehaviour
     public float speed = 1f;
     public Transform Band;
     public GameObject Balcon;
+    public bool robbable;
     // Start is called before the first frame update
     void Start()
     {
         ChanceOfGettingDistracted = 50f;
         RollForChance = false;
+        robbable = true;
     }
 
     // Update is called once per frame
@@ -52,9 +54,10 @@ public class LB_BalconyRob : MonoBehaviour
 
                     HandsUp.SetActive(true);
                     RobTrigger.SetActive(true);
-                    float singleStep = speed * Time.deltaTime;
+                    /*float singleStep = speed * Time.deltaTime;
                     Vector3 targetrotation = Band.position - transform.position;
                     Vector3 newDirection = Vector3.RotateTowards(transform.forward, targetrotation, singleStep, 0.0f);
+                    transform.rotation = Quaternion.LookRotation(newDirection);*/
                 }
                 else if (ChanceOfGettingDistracted <= 50)
                 {
@@ -75,13 +78,15 @@ public class LB_BalconyRob : MonoBehaviour
         else if (gameObject.GetComponent<LB_BalconeOn>().BalconyOn!)
         {
             RollForChance = true;
+            robbable = true;
         }
 
 
 
-        if (CrowdMemberIsDistracted == true && PlayerIsInsideCrowdMember == true && MainCamera.GetComponent<WiimoteDemo>().MinusPressed)
+        if (CrowdMemberIsDistracted == true && PlayerIsInsideCrowdMember == true && MainCamera.GetComponent<WiimoteDemo>().MinusPressed && robbable)
         {
             GameManager.GetComponent<GameManager>().money += Random.Range(5, 25);
+            robbable = false;
         }
     }
 }

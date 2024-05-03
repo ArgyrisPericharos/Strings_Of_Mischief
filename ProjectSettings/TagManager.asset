@@ -17,6 +17,8 @@ TagManager:
   - BalconyMember
   - Delete
   - Manhole
+  - TaxMan
+  - Construction
   layers:
   - Default
   - TransparentFX

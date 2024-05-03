@@ -38,6 +38,14 @@ public class BandTrigger : MonoBehaviour
         {
             gameManager.GetComponent<DR_TruckCouncil>().WithinArea = true;
         }
+        if (other.gameObject.CompareTag("TaxMan"))
+        {
+            other.gameObject.GetComponentInParent<Lb_MoveTax>().BandOn = true;
+        }
+        if (other.gameObject.CompareTag("Construction"))
+        {
+            other.gameObject.GetComponentInParent<LB_Construction>().BandOn = true;
+        }
 
 
     }
@@ -58,6 +66,14 @@ public class BandTrigger : MonoBehaviour
         if (other.gameObject.CompareTag("Manhole"))
         {
             gameManager.GetComponent<DR_TruckCouncil>().WithinArea = false;
+        }
+        if (other.gameObject.CompareTag("TaxMan"))
+        {
+            other.gameObject.GetComponentInParent<Lb_MoveTax>().BandOn = false;
+        }
+        if (other.gameObject.CompareTag("Construction"))
+        {
+            other.gameObject.GetComponentInParent<LB_Construction>().BandOn = false;
         }
     }
 }

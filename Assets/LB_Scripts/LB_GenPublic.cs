@@ -31,7 +31,7 @@ public class LB_GenPublic : MonoBehaviour
         
         
         Timer += Time.deltaTime;
-        if (Timer >= 5 && BandOn == false)
+        if (Timer >= 10 && BandOn == false)
         {
             goal = ListOfTransforms[ListNumber];
             ListNumber = Random.Range(0, 19);

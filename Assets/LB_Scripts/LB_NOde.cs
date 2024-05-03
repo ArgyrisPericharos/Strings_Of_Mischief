@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class LB_NOde : MonoBehaviour
 {
-    public GameObject Stop;
-    public Transform newPosition;
-    public bool BarrierActive;
-    public GameObject Car;
+   
+  
+   
+  
     public GameObject BarrieDown;
     public GameObject BarrieUp;
-    public bool OnTheWay;
+    public bool TaxLeft;
+    public GameObject CarFirst;
+
+    
     // Start is called before the first frame update
     void Start()
     {
-        BarrierActive = false;
+        TaxLeft = false;
     }
 
     // Update is called once per frame
@@ -26,14 +29,16 @@ public class LB_NOde : MonoBehaviour
     {
         if (other.gameObject.CompareTag("CarFirst"))
         {
-            BarrierActive = true;            
-            //Debug.Log("Works");
+                       
+            Debug.Log("Works");
             BarrieDown.SetActive(false);
             BarrieUp.SetActive(true);
-            if (BarrierActive == true)
+            if (TaxLeft == true)
             {
-                Car.GetComponent<LB_Car>().Node.position = newPosition.position;
-                OnTheWay = true;
+
+                CarFirst.gameObject.GetComponent<LB_Car>().Playing = false;
+                BarrieDown.SetActive(true);
+                BarrieUp.SetActive(false);
 
             }
         }

@@ -42,6 +42,8 @@ public class WiimoteDemo : MonoBehaviour {
     public bool MinusPressed, PlusPressed;
     public bool GUIGo = true;
 
+    public float StickOne;
+    public float StickZero;
     void Start() {
         initial_rotation = model.rot.localRotation;
 
@@ -104,7 +106,7 @@ public class WiimoteDemo : MonoBehaviour {
             MinusPressed = data.minus;
             PlusPressed = data.plus;
             float[] stick = data.GetStick01();
-
+           
             
             
 
@@ -202,29 +204,38 @@ public class WiimoteDemo : MonoBehaviour {
 
             }
 
-                    
+                 
             if (stick[0] <= 0.4 )
             {
                 //right
-                PlayerToMove.AddRelativeForce(-3, 0, 0);
+                StickZero = -1;
             }
             else if (stick[0] >= 0.6)
             {
-                PlayerToMove.AddRelativeForce(3, 0, 0);
+                StickZero = 1;
                 //left
             }
-            else if (stick[1] <= 0.4)
+            else if (stick[0] >= 0.4 && stick[0] <= 0.6)
             {
-                PlayerToMove.AddRelativeForce(0, 0, 3);
+                StickZero = 0;
+            }
+
+            if (stick[1] <= 0.4)
+            {
+                StickOne = 1;
                 //down
             }
             else if (stick[1] >= 0.6)
             {
-                PlayerToMove.AddRelativeForce(0, 0, -3);
+                StickOne = -1;
                 //up
             }
+            else if (stick[1] >= 0.4 && stick[1] <= 0.6)
+            {
+                StickOne = 0;
+            }
 
-            
+
 
         }
 

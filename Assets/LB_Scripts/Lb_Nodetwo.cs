@@ -24,7 +24,7 @@ public class Lb_Nodetwo : MonoBehaviour
         if (other.gameObject.CompareTag("CarFirst"))
         {
 
-            Debug.Log("Works");
+            //Debug.Log("Works");
             BarrieDown.SetActive(true);
             BarrieUp.SetActive(false);
 

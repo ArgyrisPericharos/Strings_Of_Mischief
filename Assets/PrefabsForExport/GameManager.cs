@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
     public bool InSpawnableArea; //this would be changeable based on where the player is at in the level (trigger box placements)
 
     public TMP_Text SuccessRatetext;
+    public TMP_Text MoneyText;
     public GameObject Canvas;
 
     //public Text textMoney; //money UI text
@@ -99,7 +100,7 @@ public class GameManager : MonoBehaviour
 
         SuccessRatetext.text = (NoteSuccessrate.ToString("F0") + "%");
         //textMoney.text = "Money  =  $ " + money.ToString("F2");
-
+        MoneyText.text = money.ToString() + "$";
     }
 
 

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 using System;
+using UnityEditor;
 
 public class GameManager : MonoBehaviour
 {
@@ -38,6 +39,7 @@ public class GameManager : MonoBehaviour
     public TMP_Text SuccessRatetext;
     public TMP_Text MoneyText;
     public GameObject Canvas;
+    public Camera maincamera;
 
     //public Text textMoney; //money UI text
     public float money = 0.0f; //money value
@@ -101,6 +103,22 @@ public class GameManager : MonoBehaviour
         SuccessRatetext.text = (NoteSuccessrate.ToString("F0") + "%");
         //textMoney.text = "Money  =  $ " + money.ToString("F2");
         MoneyText.text = money.ToString() + "$";
+
+        if (maincamera.GetComponent<WiimoteDemo>().GUIGo == true)
+        {
+            if (Input.GetKeyUp("e"))
+            {
+                maincamera.GetComponent<WiimoteDemo>().GUIGo = false;
+                // gamemanager.SetActive(true);
+            }
+        }
+        else if (maincamera.GetComponent<WiimoteDemo>().GUIGo == false)
+        {
+            if (Input.GetKeyUp("e"))
+            {
+                maincamera.GetComponent<WiimoteDemo>().GUIGo = true;
+            }
+        }
     }
 
 

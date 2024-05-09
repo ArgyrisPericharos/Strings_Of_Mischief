@@ -71,21 +71,7 @@ public class WiimoteDemo : MonoBehaviour {
             }
         } while (ret > 0);
 
-        if (GUIGo == true)
-        {
-            if (Input.GetKey("e"))
-            {
-                GUIGo = false;
-                // gamemanager.SetActive(true);
-            }
-        }
-        else if (GUIGo == false)
-        {
-            if (Input.GetKey("e"))
-            {
-                GUIGo = true;
-            }
-        }
+        
         
         
         /*model.a.enabled = wiimote.Button.a;

@@ -1,4 +1,4 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
     //successprecentage
     public float NoteSuccessrate; // (NotesHit / (Noteshit + NotesMissed)) * 100 = (precentage of success rate)
 
-    public bool MenuOn; //turn this on from wiimote script
+    
 
     public bool InSpawnableArea; //this would be changeable based on where the player is at in the level (trigger box placements)
 
@@ -43,14 +43,26 @@ public class GameManager : MonoBehaviour
 
     //public Text textMoney; //money UI text
     public float money = 0.0f; //money value
+
+
+    //menu panel manipulation. Turning on and off, navigating for the two different songs
+    public List<TMP_Text> SongListMenu;
+    public Image KnobNav;
+    public int CurrentSelectionNum;
+    public GameObject MenuPanel;
+    
+
+    public bool MenuOn; //turn this on from wiimote script
+
     void Start()
     {
         CrowdSatisfaction = 40;
         MenuOn = false;
         AudioSource.SetActive(false);
-        SongOne = new List<NoteData> (this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList); 
-   
-        
+        SongOne = new List<NoteData> (this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList);
+        CurrentSelectionNum = 0;
+
+
     }
 
     // Update is called once per frame
@@ -96,6 +108,8 @@ public class GameManager : MonoBehaviour
 
         CrowdSatisfaction = Mathf.Clamp(CrowdSatisfaction, 0, 100);
 
+        CurrentSelectionNum = Mathf.Clamp(CurrentSelectionNum, 0, 1);
+
         CrowdBar.fillAmount = CrowdSatisfaction / 100f;
 
         NoteSuccessrate = NotesHit / (NotesHit + NotesMissed) * 100;
@@ -103,6 +117,26 @@ public class GameManager : MonoBehaviour
         SuccessRatetext.text = (NoteSuccessrate.ToString("F0") + "%");
         //textMoney.text = "Money  =  $ " + money.ToString("F2");
         MoneyText.text = money.ToString() + "$";
+
+        KnobNav.transform.position = new Vector3(SongListMenu[CurrentSelectionNum].transform.position.x + 150, SongListMenu[CurrentSelectionNum].transform.position.y);
+
+        if(CurrentSelectionNum == 0) //this might need a boolean that checks when is done so the list moving happens only once.
+        {
+            //selected song one so put the right objects in the list
+        }
+        else if (CurrentSelectionNum == 1) //this might need a boolean that checks when is done so the list moving happens only once.
+        {
+            //selected song two so put the rigt objects in the list
+        }
+        
+        if (MenuOn)
+        {
+            MenuPanel.SetActive(true);
+        } 
+        else if (MenuOn == false)
+        {
+            MenuPanel.SetActive(false);
+        }
 
         if (maincamera.GetComponent<WiimoteDemo>().GUIGo == true)
         {
@@ -119,6 +153,8 @@ public class GameManager : MonoBehaviour
                 maincamera.GetComponent<WiimoteDemo>().GUIGo = true;
             }
         }
+
+
     }
 
 

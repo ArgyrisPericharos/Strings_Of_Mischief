@@ -102,14 +102,17 @@ public class WiimoteDemo : MonoBehaviour {
                 if (PlusPressed)
                 {
                     //turn menu off
+                    gamemanager.GetComponent<GameManager>().MenuOn = false;                   
                 }
                 if (data.strum_down)
-                {                   
+                {
                     //go down in the navigation of the menu
+                    gamemanager.GetComponent<GameManager>().CurrentSelectionNum -= 1; //for now this just changes going from song 1 to 2. these would have to be changed to account a greater ui menu system
                 }
                 if (data.strum_up)
-                {                   
+                {
                     // go up in the navigation of the menu
+                    gamemanager.GetComponent<GameManager>().CurrentSelectionNum += 1; //for now this just changes going from song 1 to 2. these would have to be changed to account a greater ui menu system
                 }
                 if (data.green)
                 {
@@ -154,10 +157,10 @@ public class WiimoteDemo : MonoBehaviour {
 
                 }
 
-                if (PlusPressed)
+                if (PlusPressed && gamemanager.GetComponent<GameManager>().startsong == false)
                 {
                     // turn menu on
-                    
+                    gamemanager.GetComponent<GameManager>().MenuOn = true;
                 }
 
                 if (MinusPressed)

@@ -50,8 +50,7 @@ public class GameManager : MonoBehaviour
     public Image KnobNav;
     public int CurrentSelectionNum;
     public GameObject MenuPanel;
-    
-
+    public bool SelectedSong; // boolean that controls when to put song list into chart system, this is needed so it doesnt happen constantly
     public bool MenuOn; //turn this on from wiimote script
 
     void Start()
@@ -61,7 +60,7 @@ public class GameManager : MonoBehaviour
         AudioSource.SetActive(false);
         SongOne = new List<NoteData> (this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList);
         CurrentSelectionNum = 0;
-
+        SelectedSong = false;
 
     }
 
@@ -120,15 +119,21 @@ public class GameManager : MonoBehaviour
 
         KnobNav.transform.position = new Vector3(SongListMenu[CurrentSelectionNum].transform.position.x + 150, SongListMenu[CurrentSelectionNum].transform.position.y);
 
-        if(CurrentSelectionNum == 0) //this might need a boolean that checks when is done so the list moving happens only once.
+        if(CurrentSelectionNum == 0 && SelectedSong) //this might need a boolean that checks when is done so the list moving happens only once.
         {
             //selected song one so put the right objects in the list
+            this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList = new List<NoteData>(SongOne);
+            SelectedSong = false;
+            //here i also have to change the audio source. since im changing the chart i also have to change the audible 
         }
-        else if (CurrentSelectionNum == 1) //this might need a boolean that checks when is done so the list moving happens only once.
+        else if (CurrentSelectionNum == 1 && SelectedSong) //this might need a boolean that checks when is done so the list moving happens only once.
         {
             //selected song two so put the rigt objects in the list
+            this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList = new List<NoteData>(SongTwo);
+            SelectedSong = false;
+            //here i also have to change the audio source. since im changing the chart i also have to change the audible 
         }
-        
+
         if (MenuOn)
         {
             MenuPanel.SetActive(true);

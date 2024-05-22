@@ -72,8 +72,8 @@ public class WiimoteDemo : MonoBehaviour {
         } while (ret > 0);
 
         
-        
-        
+
+
         /*model.a.enabled = wiimote.Button.a;
         model.b.enabled = wiimote.Button.b;
         model.one.enabled = wiimote.Button.one;
@@ -107,12 +107,16 @@ public class WiimoteDemo : MonoBehaviour {
                 if (data.strum_down)
                 {
                     //go down in the navigation of the menu
+                    
                     gamemanager.GetComponent<GameManager>().CurrentSelectionNum -= 1; //for now this just changes going from song 1 to 2. these would have to be changed to account a greater ui menu system
+                    gamemanager.GetComponent<GameManager>().SelectedSong = true; // boolean that controls when to put song list into chart system, this is needed so it doesnt happen constantly
                 }
                 if (data.strum_up)
                 {
                     // go up in the navigation of the menu
+                    
                     gamemanager.GetComponent<GameManager>().CurrentSelectionNum += 1; //for now this just changes going from song 1 to 2. these would have to be changed to account a greater ui menu system
+                    gamemanager.GetComponent<GameManager>().SelectedSong = true; // boolean that controls when to put song list into chart system, this is needed so it doesnt happen constantly
                 }
                 if (data.green)
                 {

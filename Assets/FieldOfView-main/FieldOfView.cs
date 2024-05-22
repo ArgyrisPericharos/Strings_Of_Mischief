@@ -10,9 +10,10 @@ public class FieldOfView : MonoBehaviour
     public float angle;
 
     public GameObject playerRef;
+    public Camera Maincamera;
 
     public LayerMask targetMask;
-    public LayerMask obstructionMask;
+    public LayerMask obstructionMask; //this is important to be set as all layers in the world that isnt the player. This means most game objects in the scene will need to have an assigned layer.
 
     public bool canSeePlayer;
 
@@ -49,6 +50,11 @@ public class FieldOfView : MonoBehaviour
                 if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionMask))
                 {
                     canSeePlayer = true;
+
+                    if (canSeePlayer && Maincamera.GetComponent<WiimoteDemo>().MinusPressed) 
+                    { 
+                        //player gets caught
+                    }
                 }
                     
                 else

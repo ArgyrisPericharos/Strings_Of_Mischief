@@ -44,6 +44,10 @@ public class WiimoteDemo : MonoBehaviour {
 
     public float StickOne;
     public float StickZero;
+
+    public GameObject UpNoise, DownNoise; //for menu
+    public bool ReadyToSpawnDown, ReadyToSpawnUp;
+
     void Start() {
         initial_rotation = model.rot.localRotation;
 
@@ -98,24 +102,50 @@ public class WiimoteDemo : MonoBehaviour {
 
             if (gamemanager.MenuOn == true)
             {
+                if (data.strum_up)
+                {
+
+                    StartStrumUpTimer = true;
+
+                }
+                else
+                {
+                    StartStrumUpTimer = false;
+                    StrumUpTime = 0.01f;
+
+                }
+
+                if (data.strum_down)
+                {
+
+                    StartStrumDownTimer = true;
+
+                }
+                else
+                {
+                    StartStrumDownTimer = false;
+                    StrumDownTime = 0.01f;
+
+                }
                 //use the strum for navigation, green button to select? and the plus to turn menu off
                 if (PlusPressed)
                 {
                     //turn menu off
-                    gamemanager.GetComponent<GameManager>().MenuOn = false;                   
+                    gamemanager.GetComponent<GameManager>().MenuOn = false;                  
+                   
                 }
-                if (data.strum_down)
+                if (StrumIsDown)
                 {
                     //go down in the navigation of the menu
-                    
-                    gamemanager.GetComponent<GameManager>().CurrentSelectionNum -= 1; //for now this just changes going from song 1 to 2. these would have to be changed to account a greater ui menu system
+                    Instantiate(DownNoise, new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.identity);
+                    gamemanager.GetComponent<GameManager>().CurrentSelectionNum += 1; //for now this just changes going from song 1 to 2. these would have to be changed to account a greater ui menu system
                     gamemanager.GetComponent<GameManager>().SelectedSong = true; // boolean that controls when to put song list into chart system, this is needed so it doesnt happen constantly
                 }
-                if (data.strum_up)
+                if (StrumIsUp)
                 {
                     // go up in the navigation of the menu
-                    
-                    gamemanager.GetComponent<GameManager>().CurrentSelectionNum += 1; //for now this just changes going from song 1 to 2. these would have to be changed to account a greater ui menu system
+                    Instantiate(UpNoise, new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.identity);
+                    gamemanager.GetComponent<GameManager>().CurrentSelectionNum -= 1; //for now this just changes going from song 1 to 2. these would have to be changed to account a greater ui menu system
                     gamemanager.GetComponent<GameManager>().SelectedSong = true; // boolean that controls when to put song list into chart system, this is needed so it doesnt happen constantly
                 }
                 if (data.green)
@@ -126,6 +156,7 @@ public class WiimoteDemo : MonoBehaviour {
                 {
                     //go back or exit
                 }
+
 
             }
             else if (gamemanager.MenuOn == false)
@@ -165,6 +196,7 @@ public class WiimoteDemo : MonoBehaviour {
                 {
                     // turn menu on
                     gamemanager.GetComponent<GameManager>().MenuOn = true;
+                   
                 }
 
                 if (MinusPressed)
@@ -181,9 +213,9 @@ public class WiimoteDemo : MonoBehaviour {
                         {
                              
                             gamemanager.startsong = true;
-                            gamemanager.AudioSource.SetActive(true);
+                            gamemanager.AudioSourceGO.SetActive(true);
                             Band.gameObject.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y, Player.transform.position.z - 1f);
-                            gamemanager.AudioSource.transform.position = Band.transform.position;
+                            gamemanager.AudioSourceGO.transform.position = Band.transform.position;
                                                  
                         }
                     }
@@ -260,7 +292,17 @@ public class WiimoteDemo : MonoBehaviour {
             StrumIsUp = false;
         }
 
+        if (ReadyToSpawnUp)
+        {
+            Instantiate(UpNoise, new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.identity);
+            ReadyToSpawnUp = false;
+        }
 
+        if (ReadyToSpawnDown)
+        {
+            Instantiate(DownNoise, new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y, this.gameObject.transform.position.z), Quaternion.identity);
+            ReadyToSpawnDown = false;
+        }
 
         if (wiimote.current_ext != ExtensionController.MOTIONPLUS)
             //model.rot.localRotation = initial_rotation;
@@ -504,6 +546,7 @@ public class WiimoteDemo : MonoBehaviour {
         
     }
     
+
     /*
     void OnDrawGizmos()
     {
@@ -551,4 +594,12 @@ public class WiimoteDemo : MonoBehaviour {
 	        wiimote = null;
 		}
 	}
+    public void NoiseDownSpawning()
+    {
+        
+        
+    }
+    
+
+    
 }

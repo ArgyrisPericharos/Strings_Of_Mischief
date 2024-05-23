@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     //playingsong information
     public bool startsong;
     public float TimeGoBy;
-    public GameObject AudioSource; //audio source that has the clip
+    public GameObject AudioSourceGO; //audio source that has the clip
     public GameObject Band;
     public GameObject BandSpawnPoint;
     public List<AudioClip> ListOfSongs; // this is used to assign the correct clip to the audio source
@@ -53,11 +53,16 @@ public class GameManager : MonoBehaviour
     public bool SelectedSong; // boolean that controls when to put song list into chart system, this is needed so it doesnt happen constantly
     public bool MenuOn; //turn this on from wiimote script
 
+
+    //song chaning
+    public AudioClip LukasSong;
+    public AudioClip IlyasSong;
+
     void Start()
     {
         CrowdSatisfaction = 40;
         MenuOn = false;
-        AudioSource.SetActive(false);
+        AudioSourceGO.SetActive(false);
         SongOne = new List<NoteData> (this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList);
         CurrentSelectionNum = 0;
         SelectedSong = false;
@@ -84,9 +89,9 @@ public class GameManager : MonoBehaviour
             }
 
             startsong = false;
-            AudioSource.transform.position = Band.transform.position;
+            AudioSourceGO.transform.position = Band.transform.position;
             Band.transform.position = BandSpawnPoint.transform.position;
-            AudioSource.SetActive(false);
+            AudioSourceGO.SetActive(false);
             this.gameObject.GetComponent<ChartSystemManager>().Timemodifier = 1.33f;
             this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList = new List<NoteData>(SongOne);
         }
@@ -123,6 +128,7 @@ public class GameManager : MonoBehaviour
         {
             //selected song one so put the right objects in the list
             this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList = new List<NoteData>(SongOne);
+            AudioSourceGO.gameObject.GetComponent<AudioSource>().clip = LukasSong;
             SelectedSong = false;
             //here i also have to change the audio source. since im changing the chart i also have to change the audible 
         }
@@ -130,6 +136,7 @@ public class GameManager : MonoBehaviour
         {
             //selected song two so put the rigt objects in the list
             this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList = new List<NoteData>(SongTwo);
+            AudioSourceGO.gameObject.GetComponent<AudioSource>().clip = IlyasSong;
             SelectedSong = false;
             //here i also have to change the audio source. since im changing the chart i also have to change the audible 
         }

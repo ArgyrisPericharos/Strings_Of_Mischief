@@ -92,7 +92,7 @@ public class GameManager : MonoBehaviour
             AudioSourceGO.transform.position = Band.transform.position;
             Band.transform.position = BandSpawnPoint.transform.position;
             AudioSourceGO.SetActive(false);
-            this.gameObject.GetComponent<ChartSystemManager>().Timemodifier = 1.1f;
+            this.gameObject.GetComponent<ChartSystemManager>().Timemodifier = 1.11f;
             if (CurrentSelectionNum == 0)
             {
                 AudioSourceGO.gameObject.GetComponent<AudioSource>().clip = LukasSong;

@@ -14,7 +14,7 @@ public class ChartSystemManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Timemodifier = 1f;
+        Timemodifier = 0.775f;
        // TypeOfNoteList.Add(new GameObject(NormalType, LightType, HoldType))
     }
 

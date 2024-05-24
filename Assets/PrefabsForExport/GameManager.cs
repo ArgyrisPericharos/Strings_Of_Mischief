@@ -92,8 +92,19 @@ public class GameManager : MonoBehaviour
             AudioSourceGO.transform.position = Band.transform.position;
             Band.transform.position = BandSpawnPoint.transform.position;
             AudioSourceGO.SetActive(false);
-            this.gameObject.GetComponent<ChartSystemManager>().Timemodifier = 1.33f;
-            this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList = new List<NoteData>(SongOne);
+            this.gameObject.GetComponent<ChartSystemManager>().Timemodifier = 1.1f;
+            if (CurrentSelectionNum == 0)
+            {
+                AudioSourceGO.gameObject.GetComponent<AudioSource>().clip = LukasSong;
+                this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList = new List<NoteData>(SongOne);
+            }
+            else if (CurrentSelectionNum == 1)          
+            {
+                AudioSourceGO.gameObject.GetComponent<AudioSource>().clip = IlyasSong;
+                this.gameObject.GetComponent<ChartSystemManager>().ChartNoteList = new List<NoteData>(SongTwo);
+            }
+            
+            
         }
 
         // CrowdSatisfaction -= ;

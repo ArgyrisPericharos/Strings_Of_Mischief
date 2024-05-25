@@ -48,6 +48,9 @@ public class WiimoteDemo : MonoBehaviour {
     public GameObject UpNoise, DownNoise; //for menu
     public bool ReadyToSpawnDown, ReadyToSpawnUp;
 
+    //uimenu
+    public GameObject MenuPanelCanv, NarrPanelCan;
+    public GameObject MenuAudio;
     void Start() {
         initial_rotation = model.rot.localRotation;
 
@@ -102,6 +105,7 @@ public class WiimoteDemo : MonoBehaviour {
 
             if (gamemanager.MenuOn == true)
             {
+                MenuAudio.SetActive(true);
                 if (data.strum_up)
                 {
 
@@ -151,6 +155,12 @@ public class WiimoteDemo : MonoBehaviour {
                 if (data.green)
                 {
                     //select yes?
+                    NarrPanelCan.SetActive(true); 
+                    MenuPanelCanv.SetActive(false);
+                }
+                else if (data.green == false)
+                {
+                    NarrPanelCan.SetActive(false);
                 }
                 if (data.red)
                 {
@@ -161,6 +171,7 @@ public class WiimoteDemo : MonoBehaviour {
             }
             else if (gamemanager.MenuOn == false)
             {
+                MenuAudio.SetActive(false);
                 Green.SetActive(data.green);
                 Red.SetActive(data.red);
                 Yellow.SetActive(data.yellow);

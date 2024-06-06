@@ -1,0 +1,1246 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 65237 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Argyris/Strings_Of_Mischief
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50586
+Successfully changed project path to: D:/Argyris/Strings_Of_Mischief
+D:/Argyris/Strings_Of_Mischief
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28068] Host "[IP] 10.129.3.142 [Port] 0 [Flags] 2 [Guid] 414883253 [EditorId] 414883253 [Version] 1048832 [Id] WindowsEditor(7,DMW5PC2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28068] Host "[IP] 10.129.3.142 [Port] 0 [Flags] 2 [Guid] 414883253 [EditorId] 414883253 [Version] 1048832 [Id] WindowsEditor(7,DMW5PC2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 11.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Argyris/Strings_Of_Mischief/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   NVIDIA
+    VRAM:     11120 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.015071 seconds.
+- Loaded All Assemblies, in  0.433 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 334 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.716 seconds
+Domain Reload Profiling: 1148ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (93ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (177ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (717ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (644ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (489ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.839 seconds
+Refreshing native plugins compatible for Editor in 5.08 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.728 seconds
+Domain Reload Profiling: 1564ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (596ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (344ms)
+			TypeCache.Refresh (310ms)
+				TypeCache.ScanAssembly (292ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (729ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (533ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4761 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 91 unused Assets / (211.9 KB). Loaded Objects now: 5216.
+Memory consumption went from 179.6 MB to 179.4 MB.
+Total: 8.825100 ms (FindLiveObjects: 0.501300 ms CreateObjectMapping: 0.543300 ms MarkObjects: 7.518200 ms  DeleteObjects: 0.260800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (120.6 KB). Loaded Objects now: 5216.
+Memory consumption went from 96.2 MB to 96.1 MB.
+Total: 9.252300 ms (FindLiveObjects: 0.526200 ms CreateObjectMapping: 0.423800 ms MarkObjects: 8.173800 ms  DeleteObjects: 0.127500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47151.565001 seconds.
+  path: Assets/Art/Music/Menu/Theme_And_Main_Menu.wav
+  artifactKey: Guid(10f7fd0a29345da4f9e7297669845181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Music/Menu/Theme_And_Main_Menu.wav using Guid(10f7fd0a29345da4f9e7297669845181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ed5f64209414053c4f33eb4e960830') in 0.092351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.889 seconds
+Refreshing native plugins compatible for Editor in 7.77 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.920 seconds
+Domain Reload Profiling: 1802ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (620ms)
+		LoadAssemblies (358ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (330ms)
+			TypeCache.Refresh (320ms)
+				TypeCache.ScanAssembly (304ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (920ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (483ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 5.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4718 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (160.8 KB). Loaded Objects now: 5240.
+Memory consumption went from 169.5 MB to 169.3 MB.
+Total: 7.181900 ms (FindLiveObjects: 0.436200 ms CreateObjectMapping: 0.263800 ms MarkObjects: 6.304100 ms  DeleteObjects: 0.176700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.810 seconds
+Refreshing native plugins compatible for Editor in 5.04 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.978 seconds
+Domain Reload Profiling: 1782ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (563ms)
+		LoadAssemblies (347ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (277ms)
+				TypeCache.ScanAssembly (260ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (978ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (584ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (159ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 6.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4719 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (169.0 KB). Loaded Objects now: 5255.
+Memory consumption went from 169.7 MB to 169.6 MB.
+Total: 8.419400 ms (FindLiveObjects: 0.446300 ms CreateObjectMapping: 0.323200 ms MarkObjects: 7.456600 ms  DeleteObjects: 0.192200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.907 seconds
+Refreshing native plugins compatible for Editor in 6.98 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.994 seconds
+Domain Reload Profiling: 1895ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (617ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (310ms)
+			TypeCache.Refresh (303ms)
+				TypeCache.ScanAssembly (287ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (994ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (536ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4719 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (169.1 KB). Loaded Objects now: 5270.
+Memory consumption went from 169.7 MB to 169.6 MB.
+Total: 7.647900 ms (FindLiveObjects: 0.448400 ms CreateObjectMapping: 0.509200 ms MarkObjects: 6.496100 ms  DeleteObjects: 0.193400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.915 seconds
+Refreshing native plugins compatible for Editor in 7.65 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.983 seconds
+Domain Reload Profiling: 1896ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (614ms)
+		LoadAssemblies (362ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (318ms)
+			TypeCache.Refresh (300ms)
+				TypeCache.ScanAssembly (279ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (983ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (539ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (165ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 6.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4719 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (185.1 KB). Loaded Objects now: 5285.
+Memory consumption went from 169.8 MB to 169.6 MB.
+Total: 8.206700 ms (FindLiveObjects: 0.570000 ms CreateObjectMapping: 0.448500 ms MarkObjects: 6.989700 ms  DeleteObjects: 0.197600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6718.360370 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 72.asset
+  artifactKey: Guid(e505aa43139e49e41874b46dfc42d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 72.asset using Guid(e505aa43139e49e41874b46dfc42d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3107b121f5951e7e1e6ce6bed0156e68') in 0.026100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.916339 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 72.asset
+  artifactKey: Guid(e505aa43139e49e41874b46dfc42d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 72.asset using Guid(e505aa43139e49e41874b46dfc42d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e547908c066a4c3141bd68dced5d31') in 0.002070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.670264 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 73.asset
+  artifactKey: Guid(e0a2b6060309f86488d8a28d1c8981f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 73.asset using Guid(e0a2b6060309f86488d8a28d1c8981f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a2d24ffa692d285e316d9a00100742') in 0.001929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30.651115 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 74.asset
+  artifactKey: Guid(cf4ad3cfbdaccb242ac953a3d4475f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 74.asset using Guid(cf4ad3cfbdaccb242ac953a3d4475f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfb7c781fd4afb1d72284e782fc9bd9') in 0.001836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.260582 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 75.asset
+  artifactKey: Guid(01e3f909aa7fd0c4b8ed0698d7d59456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 75.asset using Guid(01e3f909aa7fd0c4b8ed0698d7d59456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9fbbc18a364ceb9410c006dafffd77') in 0.001984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 48.177133 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 76.asset
+  artifactKey: Guid(5e3aff38211477744aa5a0c6cc939f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 76.asset using Guid(5e3aff38211477744aa5a0c6cc939f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211eebb46cccc8ce2068f0aeec126d1d') in 0.001368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.167091 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 77.asset
+  artifactKey: Guid(86ddf4da077730e4395aadc5d144ddb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 77.asset using Guid(86ddf4da077730e4395aadc5d144ddb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8b0ca4ca4b290bfa6cd5b3665b286e') in 0.002195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.874030 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 78.asset
+  artifactKey: Guid(38f3aefbe2913a649868fa63366a92a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 78.asset using Guid(38f3aefbe2913a649868fa63366a92a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c38571a287d4e44e497f7f4fb2f8299') in 0.002225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.461230 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 79.asset
+  artifactKey: Guid(1c5c4c77f9c6b48409f9292f495c2612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 79.asset using Guid(1c5c4c77f9c6b48409f9292f495c2612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a046fb798f1dae3b8cbbae4c9b94510c') in 0.002068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.141934 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 80.asset
+  artifactKey: Guid(19b9e76a87945a046b7722378d85abad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 80.asset using Guid(19b9e76a87945a046b7722378d85abad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771fe696116e426989c78a1ecece9f4d') in 0.001955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 38.780503 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 81.asset
+  artifactKey: Guid(6246e334c283fd9409935d30b69be756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 81.asset using Guid(6246e334c283fd9409935d30b69be756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31493ad23037a2c00c33776f8b3f9c61') in 0.001018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.247541 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 82.asset
+  artifactKey: Guid(c1d486f99e35a2e4a8a190a500146197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 82.asset using Guid(c1d486f99e35a2e4a8a190a500146197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc3b26c6f163e2f800f698d82c4161e') in 0.001995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.793529 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 83.asset
+  artifactKey: Guid(93b5351614978cc489ae015a6d0e950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 83.asset using Guid(93b5351614978cc489ae015a6d0e950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4204909033b1cccb604df11b2f74e376') in 0.000977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 42.901561 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 84.asset
+  artifactKey: Guid(8e5d9ebfce40bf548bb195e7fe7d3815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 84.asset using Guid(8e5d9ebfce40bf548bb195e7fe7d3815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff334e31b6e30a657987dcfb3199ab6') in 0.002177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 42.353679 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 85.asset
+  artifactKey: Guid(c2541492e3ddb9643a96fc31fb9c9190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 85.asset using Guid(c2541492e3ddb9643a96fc31fb9c9190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546831575e2f9a2db1690be93c8ed15e') in 0.001048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.908875 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 86.asset
+  artifactKey: Guid(4709dd57f88add8419d537301c46d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 86.asset using Guid(4709dd57f88add8419d537301c46d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9efbe92c3fd6d8c7a77d577e6cb331f') in 0.000963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 56.918850 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 87.asset
+  artifactKey: Guid(381060751a1291841a66cb9e92c59859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 87.asset using Guid(381060751a1291841a66cb9e92c59859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35a8371b37f4768857cd6485c3a2e54') in 0.001823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.266522 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 88.asset
+  artifactKey: Guid(b373db58b2db0e5409649d823730ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 88.asset using Guid(b373db58b2db0e5409649d823730ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7b7437f31a842fb21a81d7252255f2') in 0.001168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.454346 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 89.asset
+  artifactKey: Guid(86551313380c35947bb931af529c31de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 89.asset using Guid(86551313380c35947bb931af529c31de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928188710cd487d499390f8e3693fc0e') in 0.000968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.283854 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 90.asset
+  artifactKey: Guid(82910f0cc28ecdd4892a732838e1f2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 90.asset using Guid(82910f0cc28ecdd4892a732838e1f2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5afc73b9b750c6293645d006a2e70cc') in 0.001182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.856230 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 91.asset
+  artifactKey: Guid(c30421e8d2d19284fb0719883bafb6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 91.asset using Guid(c30421e8d2d19284fb0719883bafb6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9b7bc310da564901e9515d0f1803db') in 0.001085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.871622 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 92.asset
+  artifactKey: Guid(6a32285a32d6c4f4fb04f44f912de34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 92.asset using Guid(6a32285a32d6c4f4fb04f44f912de34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369d8f5746704d86eae3e21ea94fcd59') in 0.001197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 677.243854 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 93.asset
+  artifactKey: Guid(bc81cbffda9c00142aee64b089481edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 93.asset using Guid(bc81cbffda9c00142aee64b089481edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8073bcd95a345d1378f57bc2c149cf2c') in 0.001748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1366.116846 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 94.asset
+  artifactKey: Guid(f745f8752d30a0f4093b4db6f000cf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 94.asset using Guid(f745f8752d30a0f4093b4db6f000cf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5ddd2de900c010df8a1d7c1b629344') in 0.001481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.786841 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 95.asset
+  artifactKey: Guid(85d32d2e68ce67d4abc58cc6c7d28b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 95.asset using Guid(85d32d2e68ce67d4abc58cc6c7d28b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d33920388e86554d624deaddddc3dc') in 0.000948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.810177 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 96.asset
+  artifactKey: Guid(ebc99f096343a20489de99ed83632e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 96.asset using Guid(ebc99f096343a20489de99ed83632e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3fca9d4e6dcab65b80449531838039') in 0.002011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 50.388073 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 97.asset
+  artifactKey: Guid(0ecff6761b4ccab4fbf390e0948b9fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 97.asset using Guid(0ecff6761b4ccab4fbf390e0948b9fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a39f5cc0c82da2a5319c37d54b8ea4') in 0.002027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.865436 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 98.asset
+  artifactKey: Guid(5c7288cec63b1d84f8203135f9afbe44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 98.asset using Guid(5c7288cec63b1d84f8203135f9afbe44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b83d236cc76ce523940277e650d5b8') in 0.001597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.696626 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 99.asset
+  artifactKey: Guid(528d599c788792047845cde990657bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 99.asset using Guid(528d599c788792047845cde990657bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8ecb1d16fd407922edadbc04f656d3') in 0.001052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 33.149942 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 100.asset
+  artifactKey: Guid(9eb0776bf9a1f0c4ebab557781e8c933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 100.asset using Guid(9eb0776bf9a1f0c4ebab557781e8c933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e01222b663b83c12c65e59f39d6ee9') in 0.001179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.748865 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 101.asset
+  artifactKey: Guid(1229353539c522a4798ed7d0e5d35c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 101.asset using Guid(1229353539c522a4798ed7d0e5d35c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419f6aff8bf68d7b477ccaec460d5ca0') in 0.001043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 81.485155 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 102.asset
+  artifactKey: Guid(e9c4bcb02f7659241920edbc0ca4f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 102.asset using Guid(e9c4bcb02f7659241920edbc0ca4f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9358524cf94a3cc841de7f4493705e1') in 0.002453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.487322 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 103.asset
+  artifactKey: Guid(d84054a2bb866a94489713ab2b7cd4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 103.asset using Guid(d84054a2bb866a94489713ab2b7cd4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871c34083efcdbdc731133b11d45a0bc') in 0.001915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 34.529980 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 104.asset
+  artifactKey: Guid(823df6d9413bb034cb6c3297bcb41ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 104.asset using Guid(823df6d9413bb034cb6c3297bcb41ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f376eacca35e1bcf140b2f1a84aae29') in 0.001975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.038566 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 105.asset
+  artifactKey: Guid(0e6d68254189a804484c8852c8a07e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 105.asset using Guid(0e6d68254189a804484c8852c8a07e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5c06220887c2afa3e2943b1ebc96a4') in 0.002164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.121442 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 106.asset
+  artifactKey: Guid(af0fc342b4c849d43bdd99628a5a3858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 106.asset using Guid(af0fc342b4c849d43bdd99628a5a3858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f531daaedd8275650b6d3a234ff979') in 0.001984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.358186 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 107.asset
+  artifactKey: Guid(1f1c20589ba92564f9725bb646775fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 107.asset using Guid(1f1c20589ba92564f9725bb646775fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f7ce66b2e90ece74c5947696a54a40') in 0.001992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 26.444377 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 108.asset
+  artifactKey: Guid(d159cb8ddce4fe04e91b88a3f5ad2461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 108.asset using Guid(d159cb8ddce4fe04e91b88a3f5ad2461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49e1a117669687d7b56e494331ba667') in 0.001398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 91.641319 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 109.asset
+  artifactKey: Guid(783922474fde85c448f3b5dfb4f74014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 109.asset using Guid(783922474fde85c448f3b5dfb4f74014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff271ea0bdadb535ceff442af275d0f') in 0.001234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.141193 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 110.asset
+  artifactKey: Guid(9f8322aa7d2d0354395546b99efced73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 110.asset using Guid(9f8322aa7d2d0354395546b99efced73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e386a007775fbd2ced76c0b4cdcc29a8') in 0.002019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 31.063456 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 111.asset
+  artifactKey: Guid(8c36c2b26fc24174399da5397208536f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 111.asset using Guid(8c36c2b26fc24174399da5397208536f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad08935943803a8b58f124a60484615') in 0.001058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 151.405852 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 112.asset
+  artifactKey: Guid(3813f41461762ef4ab0d16be64596a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 112.asset using Guid(3813f41461762ef4ab0d16be64596a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68547d9581c86b100bfe408b4716449d') in 0.001172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.374013 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 113.asset
+  artifactKey: Guid(abd108872a4b63846a782e0a10ed2f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 113.asset using Guid(abd108872a4b63846a782e0a10ed2f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8128d74fbdb82aec10614b40f58bea02') in 0.001097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.753082 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 114.asset
+  artifactKey: Guid(3a04746d5da725143a68c28b522c479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 114.asset using Guid(3a04746d5da725143a68c28b522c479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301ca840094accd78dd894793d304107') in 0.001253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.476551 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 115.asset
+  artifactKey: Guid(5372609822786b344bf2bf775e82ca6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 115.asset using Guid(5372609822786b344bf2bf775e82ca6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47afd59406c471fb9c4513d32cf241fb') in 0.001001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 58.799400 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 116.asset
+  artifactKey: Guid(82d9918aff213cb44b986e59833fb045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 116.asset using Guid(82d9918aff213cb44b986e59833fb045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf335515687e59613f50300cb9b9ae9') in 0.001685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 116.451781 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 117.asset
+  artifactKey: Guid(00f22815afeb8724c87996da15bdd918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 117.asset using Guid(00f22815afeb8724c87996da15bdd918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22f932dadfd0688ec16e75f7fd1e7c7') in 0.001258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.673725 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 118.asset
+  artifactKey: Guid(e068e504552fe6d4baa2bd40d054267e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 118.asset using Guid(e068e504552fe6d4baa2bd40d054267e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe3dcb9808dc0d24b62e2f45e0fad40') in 0.000982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.418754 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 119.asset
+  artifactKey: Guid(ec282eec750c7f34ca5a46b9351f4b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 119.asset using Guid(ec282eec750c7f34ca5a46b9351f4b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d514aac65166aeea96c3fedcdb064d') in 0.002169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.388797 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 120.asset
+  artifactKey: Guid(779e3462e4c63a0448fc54f69f92e940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 120.asset using Guid(779e3462e4c63a0448fc54f69f92e940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9693ac899ca5a5114c67075436af7b3') in 0.001069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 26.295971 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 121.asset
+  artifactKey: Guid(ab91534335f88db449d467d6e77f6e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 121.asset using Guid(ab91534335f88db449d467d6e77f6e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167bce3a89d138553686890d7a6c7c4b') in 0.002118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.808598 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 122.asset
+  artifactKey: Guid(8f888d07022ca4a43b871e6d380d093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 122.asset using Guid(8f888d07022ca4a43b871e6d380d093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecd5804c8a30377a794c33035e56544') in 0.001312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.895891 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 123.asset
+  artifactKey: Guid(4d9f2e9deb5ff2e4db57c5b3271e51fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 123.asset using Guid(4d9f2e9deb5ff2e4db57c5b3271e51fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e369bd1015144246501d4c6dd20a3f18') in 0.002128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.895137 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 125.asset
+  artifactKey: Guid(248d2c482c5c9314e9031afdd28596fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 125.asset using Guid(248d2c482c5c9314e9031afdd28596fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6568872deeed5c38dc901a767a984707') in 0.001048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.233828 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 125.asset
+  artifactKey: Guid(248d2c482c5c9314e9031afdd28596fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 125.asset using Guid(248d2c482c5c9314e9031afdd28596fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222c242e30404403299a8e07f80718ce') in 0.002256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 39.022067 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 126.asset
+  artifactKey: Guid(d1cabd47f94d5274487ba528e2f5d888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 126.asset using Guid(d1cabd47f94d5274487ba528e2f5d888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3f37c9bc57108aba401e979501e287') in 0.002079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.626051 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 127.asset
+  artifactKey: Guid(530592c5cceedb8469339384562e1cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 127.asset using Guid(530592c5cceedb8469339384562e1cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf71c841c495b5d83eac226a79e5e9b3') in 0.001066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.384765 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 128.asset
+  artifactKey: Guid(0f08d1246bd22b24ba13ca67c0952e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 128.asset using Guid(0f08d1246bd22b24ba13ca67c0952e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce80dd32f367c9b27b6ecd1327331e7') in 0.001340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 26.230149 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 129.asset
+  artifactKey: Guid(987b38a73532dac488dcf4d84fa1d3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 129.asset using Guid(987b38a73532dac488dcf4d84fa1d3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae8ea500628dc6b863517f33cf7a979') in 0.002149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.621812 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 130.asset
+  artifactKey: Guid(2f6c6c68901984947b8c147f6c511558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 130.asset using Guid(2f6c6c68901984947b8c147f6c511558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd1ec5220c927a958249e4008c8ec59') in 0.002036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 54.507725 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 131.asset
+  artifactKey: Guid(1977e252ca5260e4396f7a5bde44c18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 131.asset using Guid(1977e252ca5260e4396f7a5bde44c18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f897d4a4b247917344052eff007c48') in 0.001066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.918141 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 132.asset
+  artifactKey: Guid(e09784fd269c27a4887d1ef7f7b8d457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 132.asset using Guid(e09784fd269c27a4887d1ef7f7b8d457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0409720699ea5bbb4ab5b5dcd59349') in 0.002529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.279554 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 133.asset
+  artifactKey: Guid(538d217abc5762544ac3b7a42389d677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 133.asset using Guid(538d217abc5762544ac3b7a42389d677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042f438993533c99d614e03a9d033358') in 0.001011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.201339 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 134.asset
+  artifactKey: Guid(a2ed3debf85a54446b2399e829ca11f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 134.asset using Guid(a2ed3debf85a54446b2399e829ca11f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03062f79752c9939302b785e19581bd6') in 0.001999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.621864 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 135.asset
+  artifactKey: Guid(7cf0bd2710156af4f885dd3dde19776b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 135.asset using Guid(7cf0bd2710156af4f885dd3dde19776b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817b661853c930d4817f0368a2e5853d') in 0.001009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.854974 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 136.asset
+  artifactKey: Guid(d129d048b106ddb47b1fa08930385d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 136.asset using Guid(d129d048b106ddb47b1fa08930385d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ca5f61c603a0ae709ab969f64f13ac') in 0.001113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.144745 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 137.asset
+  artifactKey: Guid(a09d6ae3e9120c74ab9988e9903dcc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 137.asset using Guid(a09d6ae3e9120c74ab9988e9903dcc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285895c247d0b4a86021e1012d3959ca') in 0.001898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 200.713254 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 138.asset
+  artifactKey: Guid(9d813984f7dc2b74d92af63815c9a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 138.asset using Guid(9d813984f7dc2b74d92af63815c9a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5cdd086c7b49c2839af9ac75775960') in 0.001410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.772974 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 139.asset
+  artifactKey: Guid(6cb68f97c64538d4da4b349375f3bf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 139.asset using Guid(6cb68f97c64538d4da4b349375f3bf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac762e73d30c04112e81c716c2909eb') in 0.001757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.786777 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 140.asset
+  artifactKey: Guid(8ca57732751f6164c8245c1a923e90c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 140.asset using Guid(8ca57732751f6164c8245c1a923e90c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9982b633acf4c8425d822cf94d8213') in 0.001926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.268171 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 141.asset
+  artifactKey: Guid(69872bccc26016346be4e2eaadb802f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 141.asset using Guid(69872bccc26016346be4e2eaadb802f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe9df683493d6b7cde5fb30fac8d0bb') in 0.000995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.117205 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 142.asset
+  artifactKey: Guid(72de64c79ef96884a86d4f169f281cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 142.asset using Guid(72de64c79ef96884a86d4f169f281cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb861607a669836737e114dc5f6ddaa7') in 0.001998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.815551 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 143.asset
+  artifactKey: Guid(180ec20f94e802b44b8d35cf2792e863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 143.asset using Guid(180ec20f94e802b44b8d35cf2792e863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b570816e29c9e32736091642eeccb2') in 0.001460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.118687 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 144.asset
+  artifactKey: Guid(1fc7d8660bfc038409d87b0932eef314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 144.asset using Guid(1fc7d8660bfc038409d87b0932eef314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8fd5d12a6492624db3e5fe29611d05') in 0.001079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 40.928200 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 145.asset
+  artifactKey: Guid(44740e9326d7aae4787d8d3cad5030e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 145.asset using Guid(44740e9326d7aae4787d8d3cad5030e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11298f8943536f08e473083566cb721') in 0.002063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.861 seconds
+Refreshing native plugins compatible for Editor in 10.04 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.028 seconds
+Domain Reload Profiling: 1887ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (614ms)
+		LoadAssemblies (307ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (365ms)
+			TypeCache.Refresh (354ms)
+				TypeCache.ScanAssembly (336ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1028ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (525ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 6.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4718 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (161.0 KB). Loaded Objects now: 5300.
+Memory consumption went from 169.7 MB to 169.5 MB.
+Total: 8.084000 ms (FindLiveObjects: 0.567600 ms CreateObjectMapping: 0.356600 ms MarkObjects: 6.954100 ms  DeleteObjects: 0.204800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 489.541012 seconds.
+  path: Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 146.asset
+  artifactKey: Guid(e77b12b81ea77f3429555da961c8e087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Refactoring/Ilyia's SongChart/IlyaBeat 146.asset using Guid(e77b12b81ea77f3429555da961c8e087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ffda9ed060cb4ddd1be2dd660e53dd') in 0.017885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Argyris\Strings_Of_Mischief\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.970 seconds
+Refreshing native plugins compatible for Editor in 5.41 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.985 seconds
+Domain Reload Profiling: 1952ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (664ms)
+		LoadAssemblies (425ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (339ms)
+			TypeCache.Refresh (332ms)
+				TypeCache.ScanAssembly (315ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (985ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (534ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4718 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (185.3 KB). Loaded Objects now: 5315.
+Memory consumption went from 169.8 MB to 169.6 MB.
+Total: 7.754300 ms (FindLiveObjects: 0.487400 ms CreateObjectMapping: 0.358600 ms MarkObjects: 6.698100 ms  DeleteObjects: 0.208900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

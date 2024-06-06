@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: IlyaBeat 14
   m_EditorClassIdentifier: 
   TypeOfNotes: 0
-  TheObjectThatHitsThis: 0
+  TheObjectThatHitsThis: 3
   Timing: 7.453
   ColourIdentifier: {r: 0, g: 0, b: 0, a: 0}
   SpawnPozitionModifierZ: 1.3

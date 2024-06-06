@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TypeOfNotes: 0
   TheObjectThatHitsThis: 2
-  Timing: 184
+  Timing: 117
   ColourIdentifier: {r: 0, g: 0, b: 0, a: 0}
   SpawnPozitionModifierZ: 1.3
